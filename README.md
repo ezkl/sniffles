@@ -1,2 +1,2 @@
 # Sniffles
-!["Sniffles"](http://i.imgur.com/h903l.png)
+!["Public Domain Image http://www.archive.org/details/Sniffles1955"](http://i.imgur.com/0GZp1.png)

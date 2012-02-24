@@ -1,0 +1,8 @@
+DocumentUp.document({
+  repo:  "ezkl/sniffles",
+  name: "Sniffles",
+  twitter: [
+    "ezkl"
+  ],
+  travis: true
+});
