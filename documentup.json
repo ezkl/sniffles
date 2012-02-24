@@ -1,8 +1,5 @@
-DocumentUp.document({
-  repo:  "ezkl/sniffles",
+{
   name: "Sniffles",
-  twitter: [
-    "ezkl"
-  ],
+  twitter: "ezkl",
   travis: true
-});
+}
