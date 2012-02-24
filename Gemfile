@@ -7,6 +7,10 @@ group :development, :test do
   gem 'guard-rspec'
 end
 
+group :test do
+  gem 'rake'
+end
+
 require 'rbconfig'
 
 if RbConfig::CONFIG['target_os'] =~ /darwin/i
