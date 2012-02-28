@@ -6,13 +6,23 @@ describe Sniffles do
   end
   
   describe "#sniff" do
-    it "should take a URL" do
-      Sniffles.sniff("http://www.google.com/")
-      Sniffles.url.should eq "http://www.google.com/"
+    before(:all) do
+      VCR.use_cassette("wordpress") do
+        @body = Typhoeus::Request.get("http://www.wordpress.com/", :follow_location => true).body
+      end
+      @wp = Sniffles.sniff(@body)
     end
-  end
-  
-  describe "#url" do
-    it "should respond with a URL" 
+    
+    it "should identify WordPress" do
+      @wp.should include(:wordpress => true)
+    end
+    
+    it "should identify jQuery" do
+      @wp.should include(:jquery => true)
+    end
+    
+    it "should identify Quantcast" do
+      @wp.should include(:quantcast => true)
+    end
   end
 end

@@ -18,5 +18,4 @@ Bundler:
     require 'typhoeus' # Optional: Use your favorite HTTP client.
     
     response = Typhoeus::Request.get("http://www.wordpress.com/")
-    wp = Sniffles.sniff(response.body) # => {wordpress: true, jquery: true, quantcast: true}
-    wp.wordpress? # => true
+    Sniffles.sniff(response.body) # => {wordpress: true, jquery: true, quantcast: true}
