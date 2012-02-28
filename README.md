@@ -4,6 +4,8 @@
 ## Description
 Sniffles parses HTML pages and searches for common patterns suggesting a page is using popular CMS, CSS, and JS libraries.
 
+**Work in Progress!**
+
 ## Installation
 Rubygems:
 
