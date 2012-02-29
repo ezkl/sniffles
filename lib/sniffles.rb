@@ -10,6 +10,7 @@ module Sniffles
     output[:wordpress] = true if wordpress?(doc)
     output[:jquery] = true if jquery?(html)
     output[:quantcast] = true if quantcast?(html)
+    output[:mixpanel] = true if mixpanel?(html)
     
     output
   end
@@ -24,5 +25,9 @@ module Sniffles
   
   def self.quantcast?(html)
     !!(html =~ /\.quantserve\.com\/quant\.js/)
+  end
+
+  def self.mixpanel?(html)
+    !!(html =~ /api.mixpanel.com\S+mixpanel.js/)
   end
 end
