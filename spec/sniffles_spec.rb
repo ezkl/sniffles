@@ -24,5 +24,19 @@ describe Sniffles do
     it "should identify Quantcast" do
       @wp.should include(:quantcast => true)
     end
+
+    describe "#mixpanel" do
+      before(:all) do
+        VCR.use_cassette("squidoo") do
+          @body = Typhoeus::Request.get("http://www.squidoo.com/", :follow_location => true).body
+        end
+        @squid = Sniffles.sniff(@body)
+      end
+
+      it "should identify MixPanel" do
+        @squid.should include(:mixpanel => true)
+      end
+    end
+  
   end
 end
