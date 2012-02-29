@@ -2,7 +2,7 @@
 require File.expand_path('../lib/sniffles/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Ezekiel Templin"]
+  gem.authors       = ["Ezekiel Templin", "Jake Austwick"]
   gem.email         = ["zeke@templ.in"]
   gem.description   = %q{Detects popular CMS, Javascript libraries, and other items of interest.}
   gem.summary       = %q{Sniffles helps you determine the platforms and libraries a website is running.}
