@@ -4,16 +4,18 @@ require "sniffles/version"
 
 module Sniffles
   def self.sniff(html)
+    doc = Nokogiri::HTML::parse(html)
+    
     output = {}
-    output[:wordpress] = true if wordpress?(html)
+    output[:wordpress] = true if wordpress?(doc)
     output[:jquery] = true if jquery?(html)
     output[:quantcast] = true if quantcast?(html)
     
     output
   end
   
-  def self.wordpress?(html)
-    !!(html =~ /wp-content/i)
+  def self.wordpress?(doc)
+    !doc.xpath('.//link[contains(@href,"wp-content")]').empty?
   end
   
   def self.jquery?(html)
