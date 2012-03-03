@@ -26,6 +26,13 @@ describe Sniffles do
         sniff[:jquery][:found].should eq true
       end
     end
+    
+    context "w/o supplying groups or sniffers" do
+      it "should sniff with all available sniffers" do
+        sniff = Sniffles.sniff(@squidoo)
+        sniff.count.should eq SNIFFER_COUNT
+      end
+    end
   end
   
   describe "convenience methods" do

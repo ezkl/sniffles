@@ -9,15 +9,22 @@ require 'sniffles/text'
 module Sniffles  
   def self.sniff(response_body, *sniffers_or_groups)
     output = {}
-    sniffers_or_groups.each do |sniffer_or_group|
-      if list_all.include?(sniffer_or_group)
-        output[sniffer_or_group] = Sniffers.use(response_body, sniffer_or_group)
-      elsif list_groups.include?(sniffer_or_group)
-        list_all_by_group[sniffer_or_group].each do |sniffer|
-          output[sniffer] = Sniffers.use(response_body, sniffer)
+    
+    if sniffers_or_groups.empty?
+      list_all.each do |sniffer|
+        output[sniffer] = Sniffers.use(response_body, sniffer)
+      end 
+    else    
+      sniffers_or_groups.each do |sniffer_or_group|
+        if list_all.include?(sniffer_or_group)
+          output[sniffer_or_group] = Sniffers.use(response_body, sniffer_or_group)
+        elsif list_groups.include?(sniffer_or_group)
+          list_all_by_group[sniffer_or_group].each do |sniffer|
+            output[sniffer] = Sniffers.use(response_body, sniffer)
+          end
+        else
+          raise UnknownSniffer, "#{sniffer} not found!"
         end
-      else
-        raise UnknownSniffer, "#{sniffer} not found!"
       end
     end
     output
