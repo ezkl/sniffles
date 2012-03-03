@@ -1,11 +1,9 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Sniffles do
-  describe "#sniff" do
+  describe "#sniff", :vcr do
     before(:all) do
-      VCR.use_cassette("squidoo_com") do
-        @squidoo = Typhoeus::Request.get("http://www.squidoo.com/", :follow_location => true).body
-      end
+      @squidoo = page_body("http://www.squidoo.com")
     end
     
     context "using sniffers" do
@@ -36,6 +34,34 @@ describe Sniffles do
     context "using a non-existent sniffer" do
       it "should raise an error" do
         expect { Sniffles.sniff(@squidoo, :fake_ass_sniffer) }.to raise_error(Sniffles::UnknownSniffer, "fake_ass_sniffer not found!")
+      end
+    end
+  end
+  
+  describe "#group?" do
+    context "group exists" do
+      it "should be true" do
+        Sniffles.group?(:cms).should be true
+      end
+    end
+    
+    context "group doesn't exist" do
+      it "should be false" do
+        Sniffles.group?(:wordpress).should be false
+      end
+    end
+  end
+  
+  describe "#sniffer?" do
+    context "sniffer exists" do
+      it "should be true" do
+        Sniffles.sniffer?(:wordpress).should be true
+      end
+    end
+    
+    context "sniffer doesn't exist" do
+      it "should be false" do
+        Sniffles.sniffer?(:cms).should be false
       end
     end
   end

@@ -1,29 +1,28 @@
 require 'nokogiri'
 
 require 'sniffles/version'
-require 'sniffles/sniffers'
-require 'sniffles/utils'
 require 'sniffles/html'
 require 'sniffles/text'
+require 'sniffles/sniffers'
 
 module Sniffles  
-  def self.sniff(response_body, *sniffers_or_groups)
+  def self.sniff(response_body, *args)
     output = {}
     
-    if sniffers_or_groups.empty?
+    if args.empty?
       list_all.each do |sniffer|
         output[sniffer] = Sniffers.use(response_body, sniffer)
       end 
     else    
-      sniffers_or_groups.each do |sniffer_or_group|
-        if list_all.include?(sniffer_or_group)
-          output[sniffer_or_group] = Sniffers.use(response_body, sniffer_or_group)
-        elsif list_groups.include?(sniffer_or_group)
-          list_all_by_group[sniffer_or_group].each do |sniffer|
+      args.each do |arg|
+        if sniffer?(arg)
+          output[arg] = Sniffers.use(response_body, arg)
+        elsif group?(arg)
+          list_all_by_group[arg].each do |sniffer|
             output[sniffer] = Sniffers.use(response_body, sniffer)
           end
         else
-          raise UnknownSniffer, "#{sniffer_or_group} not found!"
+          raise UnknownSniffer, "#{arg} not found!"
         end
       end
     end
@@ -40,6 +39,14 @@ module Sniffles
   
   def self.list_all_by_group
     Sniffers.list_all_by_group
+  end
+  
+  def self.group?(name)
+    list_groups.include?(name)
+  end
+  
+  def self.sniffer?(name)
+    list_all.include?(name)
   end
   
   class UnknownSniffer < Exception;end

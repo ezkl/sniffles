@@ -3,15 +3,13 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sni
 
 describe Sniffles::Sniffers::Quantcast do
   describe "#output" do
-    context "w/ Quantcast" do
+    context "w/ Quantcast", :vcr do
       before(:all) do
-        VCR.use_cassette("squidoo_com") do
-          @squidoo = Typhoeus::Request.get("http://www.squidoo.com/", :follow_location => true)
-        end
+        @squidoo = Typhoeus::Request.get("http://www.squidoo.com").body
       end
       
       it "should return true for found" do
-        Sniffles::Sniffers::Quantcast.new(@squidoo.body).output[:found].should eq true
+        Sniffles::Sniffers::Quantcast.new(@squidoo).output[:found].should eq true
       end
     end
     

@@ -15,7 +15,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAwMiBNYXIgMjAxMiAyMzoxNToxNiBHTVQ=
+        U2F0LCAwMyBNYXIgMjAxMiAxMjowNDoxMSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hlLzI=
@@ -492,5 +492,5 @@ http_interactions:
         dG1sPgo=
     http_version: !binary |-
       MS4x
-  recorded_at: Fri, 02 Mar 2012 23:15:17 GMT
+  recorded_at: Sat, 03 Mar 2012 12:04:12 GMT
 recorded_with: VCR 2.0.0

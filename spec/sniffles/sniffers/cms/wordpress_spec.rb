@@ -3,12 +3,10 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sni
 
 describe "Sniffers::WordPress" do
   context "WordPress Blog w/ feed, theme, and pingback" do
-    describe "#output" do
+    describe "#output", :vcr do
       before(:all) do
-        VCR.use_cassette("pearsonified_com") do
-          @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/")
-          @wp = Sniffles::Sniffers::Wordpress.new(@pearsonified.body)
-        end
+        @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/").body
+        @wp = Sniffles::Sniffers::Wordpress.new(@pearsonified)
       end
       
       it "should return found as true" do
@@ -34,13 +32,11 @@ describe "Sniffers::WordPress" do
     end
   end
   
-  context "WordPress Blog w/ version" do    
+  context "WordPress Blog w/ version", :vcr do    
     describe "#output" do
       before(:all) do
-        VCR.use_cassette("humemes_com") do
-          @humemes = Typhoeus::Request.get("http://humemes.com/")
-          @wp_version = Sniffles::Sniffers::Wordpress.new(@humemes.body)
-        end
+        @humemes = Typhoeus::Request.get("http://humemes.com/").body
+        @wp_version = Sniffles::Sniffers::Wordpress.new(@humemes)
       end
       
       it "should return the version" do
@@ -49,12 +45,10 @@ describe "Sniffers::WordPress" do
     end
   end
   
-  context "Not a WordPress Blog" do
+  context "Not a WordPress Blog", :vcr do
     before(:all) do
-      VCR.use_cassette("google_com") do
-        @google = Typhoeus::Request.get("http://www.google.com/")
-        @not_wp = Sniffles::Sniffers::Wordpress.new(@google.body)
-      end
+      @google = Typhoeus::Request.get("http://www.google.com/").body
+      @not_wp = Sniffles::Sniffers::Wordpress.new(@google)
     end
     
     it "should return false" do

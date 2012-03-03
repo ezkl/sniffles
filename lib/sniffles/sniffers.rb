@@ -1,10 +1,10 @@
 module Sniffles
   module Sniffers
     def self.use(response_body, name)
-      file = Dir.glob("lib/sniffles/sniffers/**/#{name.to_s}.rb").first
+      file = Dir.glob("lib/sniffles/sniffers/**/#{name.to_s}.rb").first      
       class_name = get_sniffer_class(name.to_s)
       require File.expand_path(File.dirname(__FILE__) + "/../../#{file}")
-      eval("Sniffers::#{class_name}.new(response_body).output")
+      eval("Sniffles::Sniffers::#{class_name}.new(response_body).output")
     end
         
     def self.list_all(group = "**")

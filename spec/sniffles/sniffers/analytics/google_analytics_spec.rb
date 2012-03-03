@@ -3,12 +3,10 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sni
 
 describe Sniffles::Sniffers::GoogleAnalytics do
   describe "#output" do
-    context "Inline JS" do
+    context "Inline JS", :vcr do
       before(:all) do
-        VCR.use_cassette("pearsonified_com") do
-          @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/")
-          @ga = Sniffles::Sniffers::GoogleAnalytics.new(@pearsonified.body)
-        end
+        @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/")
+        @ga = Sniffles::Sniffers::GoogleAnalytics.new(@pearsonified.body)
       end
       
       it "should return as found" do
