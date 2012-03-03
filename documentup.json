@@ -3,5 +3,7 @@
   "twitter": [
     "ezkl"
   ],
+	"issues": true,
+	"travis": true,
   "google_analytics": "UA-29679939-1"
 }
