@@ -6,7 +6,6 @@ describe Sniffles do
       VCR.use_cassette("squidoo_com") do
         @squidoo = Typhoeus::Request.get("http://www.squidoo.com/", :follow_location => true).body
       end
-      
     end
     
     context "using sniffers" do
@@ -31,6 +30,12 @@ describe Sniffles do
       it "should sniff with all available sniffers" do
         sniff = Sniffles.sniff(@squidoo)
         sniff.count.should eq SNIFFER_COUNT
+      end
+    end
+    
+    context "using a non-existent sniffer" do
+      it "should raise an error" do
+        expect { Sniffles.sniff(@squidoo, :fake_ass_sniffer) }.to raise_error(Sniffles::UnknownSniffer, "fake_ass_sniffer not found!")
       end
     end
   end

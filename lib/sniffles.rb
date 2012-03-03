@@ -23,7 +23,7 @@ module Sniffles
             output[sniffer] = Sniffers.use(response_body, sniffer)
           end
         else
-          raise UnknownSniffer, "#{sniffer} not found!"
+          raise UnknownSniffer, "#{sniffer_or_group} not found!"
         end
       end
     end
