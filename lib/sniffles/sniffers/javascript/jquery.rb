@@ -1,0 +1,24 @@
+module Sniffles
+  module Sniffers
+    class Jquery
+      include Text
+      
+      attr_accessor :doc
+      attr_reader :output
+      
+      def initialize(response_body)
+        @output = {}        
+        parse(response_body) && process_document
+      end
+      
+      def process_document
+        @output[:found] = jquery?
+      end
+      
+      private
+      def jquery?
+        match?(/jQuery/)
+      end
+    end
+  end
+end
