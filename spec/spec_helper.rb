@@ -3,8 +3,8 @@ require File.expand_path(File.dirname(__FILE__) + '/../lib/sniffles')
 require 'typhoeus'
 require 'vcr'
 
-SNIFFER_COUNT = Dir.glob("lib/sniffles/sniffers/**/*.rb").inject(0) { |x| x += 1}
-SNIFFER_GROUP_COUNT = Dir.glob("lib/sniffles/sniffers/**").inject(0) { |x| x += 1}
+SNIFFER_COUNT = Dir.glob("lib/sniffles/sniffers/**/*.rb").count
+SNIFFER_GROUP_COUNT = Dir.glob("lib/sniffles/sniffers/**").count
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
