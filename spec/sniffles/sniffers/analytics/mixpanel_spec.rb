@@ -8,7 +8,7 @@ describe Sniffles::Sniffers::Mixpanel do
         @squidoo = Typhoeus::Request.get("http://www.squidoo.com").body
       end
       
-      it "should return UA" do
+      it "should return as found" do
         Sniffles::Sniffers::Mixpanel.new(@squidoo).output[:found].should eq true
       end
     end
