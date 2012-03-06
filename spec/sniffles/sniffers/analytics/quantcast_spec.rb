@@ -4,13 +4,13 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sni
 describe Sniffles::Sniffers::Quantcast do
   describe "#output" do
     context "quantcast", :vcr => { :cassette_name => 'squidoo_com' } do
-      let(:quantcast) { Sniffles::Sniffers::Quantcast.new(page_body("http://www.squidoo.com")) }
+      let(:quantcast) { described_class.new(page_body("http://www.squidoo.com")) }
       
       it { quantcast.output[:found].should eq true }
     end
 
     context "no quantcast" do
-      let(:blank) { Sniffles::Sniffers::Quantcast.new(empty_html_doc) }
+      let(:blank) { described_class.new(empty_html_doc) }
       
       it { blank.output[:found].should eq false }
     end
