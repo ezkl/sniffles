@@ -2,8 +2,8 @@ require File.expand_path(File.dirname(__FILE__) + '/../lib/sniffles')
 require 'vcr'
 require 'typhoeus'
 
-SNIFFER_COUNT = Dir.glob("lib/sniffles/sniffers/**/*.rb").count
-SNIFFER_GROUP_COUNT = Dir.glob("lib/sniffles/sniffers/**").count
+SNIFFER_COUNT = Dir.glob(File.dirname(__FILE__) + "/../lib/sniffles/sniffers/**/*.rb").count
+SNIFFER_GROUP_COUNT = Dir.glob(File.dirname(__FILE__) + "/../lib/sniffles/sniffers/**").count
 
 def page_body(url)
   Typhoeus::Request.get(url).body
