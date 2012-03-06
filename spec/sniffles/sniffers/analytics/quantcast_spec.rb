@@ -5,11 +5,11 @@ describe Sniffles::Sniffers::Quantcast do
   describe "#output" do
     context "w/ Quantcast", :vcr do
       before(:all) do
-        @squidoo = Typhoeus::Request.get("http://www.squidoo.com").body
+        @quantcast = Sniffles::Sniffers::Quantcast.new(page_body("http://www.squidoo.com"))
       end
       
       it "should return true for found" do
-        Sniffles::Sniffers::Quantcast.new(@squidoo).output[:found].should eq true
+        @quantcast.output[:found].should eq true
       end
     end
     

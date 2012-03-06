@@ -2,16 +2,14 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../spec_helper')
 require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sniffers/javascript/jquery')
 
 describe Sniffles::Sniffers::Jquery do
-  describe "#output" do
+  describe "#output", :vcr do
     context "w/ jQuery" do
       before(:all) do
-        VCR.use_cassette("squidoo_com") do
-          @squidoo = Typhoeus::Request.get("http://www.squidoo.com/", :follow_location => true)
-        end
+        @jquery = Sniffles::Sniffers::Jquery.new(page_body("http://www.squidoo.com"))
       end
       
       it "should return true" do
-        Sniffles::Sniffers::Jquery.new(@squidoo.body).output[:found].should eq true
+        @jquery.output[:found].should eq true
       end
     end
     

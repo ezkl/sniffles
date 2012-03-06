@@ -5,11 +5,11 @@ describe Sniffles::Sniffers::Mixpanel do
   describe "#output" do
     context "w/ Mixpanel", :vcr do
       before(:all) do
-        @squidoo = Typhoeus::Request.get("http://www.squidoo.com").body
+        @mixpanel = Sniffles::Sniffers::Mixpanel.new(page_body("http://www.squidoo.com"))
       end
       
       it "should return as found" do
-        Sniffles::Sniffers::Mixpanel.new(@squidoo).output[:found].should eq true
+        @mixpanel.output[:found].should eq true
       end
     end
     

@@ -5,8 +5,7 @@ describe Sniffles::Sniffers::GoogleAnalytics do
   describe "#output" do
     context "Inline JS", :vcr do
       before(:all) do
-        @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/")
-        @ga = Sniffles::Sniffers::GoogleAnalytics.new(@pearsonified.body)
+        @ga = Sniffles::Sniffers::GoogleAnalytics.new(page_body("http://www.pearsonified.com/"))
       end
       
       it "should return as found" do
@@ -18,12 +17,9 @@ describe Sniffles::Sniffers::GoogleAnalytics do
       end
     end
     
-    context "Inline w/ Urchin (Old)" do
+    context "Inline w/ Urchin (Old)", :vcr do
       before(:all) do
-        VCR.use_cassette("humemes_com") do
-          @humemes = Typhoeus::Request.get("http://humemes.com/")
-          @urchin = Sniffles::Sniffers::GoogleAnalytics.new(@humemes.body)
-        end
+        @urchin = Sniffles::Sniffers::GoogleAnalytics.new(page_body("http://humemes.com/"))
       end
       
       it "should return as found" do

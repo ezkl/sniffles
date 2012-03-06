@@ -5,8 +5,7 @@ describe "Sniffers::WordPress" do
   context "WordPress Blog w/ feed, theme, and pingback" do
     describe "#output", :vcr do
       before(:all) do
-        @pearsonified = Typhoeus::Request.get("http://www.pearsonified.com/").body
-        @wp = Sniffles::Sniffers::Wordpress.new(@pearsonified)
+        @wp = Sniffles::Sniffers::Wordpress.new(page_body("http://www.pearsonified.com/"))
       end
       
       it "should return found as true" do
@@ -35,8 +34,7 @@ describe "Sniffers::WordPress" do
   context "WordPress Blog w/ version", :vcr do    
     describe "#output" do
       before(:all) do
-        @humemes = Typhoeus::Request.get("http://humemes.com/").body
-        @wp_version = Sniffles::Sniffers::Wordpress.new(@humemes)
+        @wp_version = Sniffles::Sniffers::Wordpress.new(page_body("http://humemes.com/"))
       end
       
       it "should return the version" do
@@ -47,8 +45,7 @@ describe "Sniffers::WordPress" do
   
   context "Not a WordPress Blog", :vcr do
     before(:all) do
-      @google = Typhoeus::Request.get("http://www.google.com/").body
-      @not_wp = Sniffles::Sniffers::Wordpress.new(@google)
+      @not_wp = Sniffles::Sniffers::Wordpress.new(page_body("http://www.google.com/"))
     end
     
     it "should return false" do
