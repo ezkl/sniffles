@@ -49,5 +49,5 @@ module Sniffles
     list_all.include?(name)
   end
   
-  class UnknownSniffer < Exception;end
+  class UnknownSniffer < StandardError; end
 end
