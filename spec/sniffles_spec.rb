@@ -1,76 +1,49 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Sniffles do
-  describe "#sniff", :vcr do
-    before(:all) do
-      @squidoo = page_body("http://www.squidoo.com")
+  describe "#sniff", :vcr => { :cassette_name => "squidoo_com" } do
+    let(:squidoo) { page_body("http://www.squidoo.com") }
+    
+    context "one sniffer" do
+      it  { subject.sniff(squidoo, :mixpanel).should eq :mixpanel => { :found => true } }
     end
     
-    context "using sniffers" do
-      it "returns a hash of sniffers and their responses" do
-        sniff = Sniffles.sniff(@squidoo, :mixpanel, :google_analytics)
-        sniff[:mixpanel][:found].should eq true
-        sniff[:google_analytics][:found].should eq true
-      end
+    context "using multiple sniffers" do
+      it { subject.sniff(squidoo, :jquery, :mixpanel).should include(:jquery, :mixpanel) }
     end
     
     context "using groups" do
-      it "returns a hash of sniffers and their responses" do
-        sniff = Sniffles.sniff(@squidoo, :analytics, :cms, :javascript)
-        sniff[:mixpanel][:found].should eq true
-        sniff[:google_analytics][:found].should eq true
-        sniff[:wordpress][:found].should eq false
-        sniff[:jquery][:found].should eq true
-      end
+      it { subject.sniff(squidoo, :analytics).should include(:mixpanel, :google_analytics) }
     end
     
     context "w/o supplying groups or sniffers" do
-      it "should sniff with all available sniffers" do
-        sniff = Sniffles.sniff(@squidoo)
-        sniff.count.should eq SNIFFER_COUNT
-      end
+      it { subject.sniff(squidoo).count.should eq SNIFFER_COUNT }
     end
     
     context "using a non-existent sniffer" do
       it "should raise an error" do
-        expect { Sniffles.sniff(@squidoo, :fake_ass_sniffer) }.to raise_error(Sniffles::UnknownSniffer, "fake_ass_sniffer not found!")
+        expect { subject.sniff(squidoo, :fake_ass_sniffer) }.to raise_error(Sniffles::UnknownSniffer, "fake_ass_sniffer not found!")
       end
     end
   end
   
   describe "#group?" do
     context "group exists" do
-      it "should be true" do
-        Sniffles.group?(:cms).should be true
-      end
+      it { subject.group?(:cms).should be true }
     end
     
     context "group doesn't exist" do
-      it "should be false" do
-        Sniffles.group?(:wordpress).should be false
-      end
+      it { subject.group?(:wordpress).should be false }
     end
   end
   
   describe "#sniffer?" do
     context "sniffer exists" do
-      it "should be true" do
-        Sniffles.sniffer?(:wordpress).should be true
-      end
+      it { subject.sniffer?(:wordpress).should be true }
     end
     
     context "sniffer doesn't exist" do
-      it "should be false" do
-        Sniffles.sniffer?(:cms).should be false
-      end
-    end
-  end
-  
-  describe "convenience methods" do
-    it "should make it easier to see available sniffers" do
-      subject.list_all.count.should be SNIFFER_COUNT
-      subject.list_groups.count.should be SNIFFER_GROUP_COUNT
-      subject.list_all_by_group.count.should be SNIFFER_GROUP_COUNT
+      it { subject.sniffer?(:cms).should be false }
     end
   end
 end
