@@ -6,3 +6,7 @@ SNIFFER_GROUP_COUNT = Dir.glob(File.dirname(__FILE__) + "/../../lib/sniffles/sni
 def page_body(url)
   Typhoeus::Request.get(url).body
 end
+
+def empty_html_doc
+  "<html><head></head><body></body></html>"
+end

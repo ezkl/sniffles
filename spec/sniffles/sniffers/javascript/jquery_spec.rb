@@ -16,7 +16,7 @@ describe Sniffles::Sniffers::Jquery do
 
     context "w/o jQuery" do
       it "should return false" do
-        Sniffles::Sniffers::Jquery.new("<html><head></head><body>No scripts!</body></html>").output[:found].should eq false
+        Sniffles::Sniffers::Jquery.new(empty_html_doc).output[:found].should eq false
       end
     end
   end

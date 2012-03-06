@@ -33,7 +33,7 @@ describe Sniffles::Sniffers::GoogleAnalytics do
 
     context "No Google Analytics" do
       it "should return false" do
-        no_ga = Sniffles::Sniffers::GoogleAnalytics.new("<html><head></head><body>No analytics!</body></html>")
+        no_ga = Sniffles::Sniffers::GoogleAnalytics.new(empty_html_doc)
         no_ga.output[:found].should eq false
       end
     end

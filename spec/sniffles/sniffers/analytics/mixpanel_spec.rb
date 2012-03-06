@@ -16,7 +16,7 @@ describe Sniffles::Sniffers::Mixpanel do
 
     context "w/o Mixpanel" do
       it "should return false" do
-        Sniffles::Sniffers::Mixpanel.new("<html><head></head><body>No analytics!</body></html>").output[:found].should eq false
+        Sniffles::Sniffers::Mixpanel.new(empty_html_doc).output[:found].should eq false
       end
     end
   end
