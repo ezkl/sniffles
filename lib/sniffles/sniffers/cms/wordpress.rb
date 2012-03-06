@@ -11,15 +11,16 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = wordpress?
-        parse_version
-        parse_feed
-        parse_theme
-        parse_pingback
+        if @output[:found] = found?
+          parse_version
+          parse_feed
+          parse_theme
+          parse_pingback
+        end
       end
       
       private
-      def wordpress?
+      def found?
         @doc.xpath('//link[contains(@href,"wp-content")]').any?
       end    
       

@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = clicky?
+        @output[:found] = found?
       end
       
       private
-      def clicky?
+      def found?
         match? /static\.getclicky\.com/
       end
     end

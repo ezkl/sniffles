@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = admeld?
+        @output[:found] = found?
       end
       
       private
-      def admeld?
+      def found?
         match? /js\.admeld\.com/
       end
     end

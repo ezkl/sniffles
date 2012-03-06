@@ -11,11 +11,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = phpbb?
+        @output[:found] = found?
       end
       
       private
-      def phpbb?
+      def found?
         @doc.text.include?("Powered by phpBB") && phpbb_meta?
       end    
       

@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = jquery?
+        @output[:found] = found?
       end
       
       private
-      def jquery?
+      def found?
         match?(/jQuery/)
       end
     end

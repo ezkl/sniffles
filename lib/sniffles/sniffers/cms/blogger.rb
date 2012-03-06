@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = blogger?
+        @output[:found] = found?
       end
       
       private
-      def blogger?
+      def found?
         meta_generator_content == "blogger"
       end
 

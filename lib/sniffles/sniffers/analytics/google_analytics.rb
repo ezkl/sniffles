@@ -12,12 +12,13 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = google_analytics?
-        parse_google_analytics_ua
+        if @output[:found] = found?
+          parse_google_analytics_ua
+        end
       end
       
       private
-      def google_analytics?
+      def found?
         match?(/\.google\-analytics\.com|urchinTracker/i)
       end
       

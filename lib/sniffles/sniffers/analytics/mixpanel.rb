@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = mixpanel?
+        @output[:found] = found?
       end
       
       private
-      def mixpanel?
+      def found?
         match?(/api\.mixpanel\.com\S+mixpanel\.js/)
       end
     end

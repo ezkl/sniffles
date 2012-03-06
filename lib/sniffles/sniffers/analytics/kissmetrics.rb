@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = kissmetrics?
+        @output[:found] = found?
       end
       
       private
-      def kissmetrics?
+      def found?
         match? /i\.kissmetrics\.com/
       end
     end

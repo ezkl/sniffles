@@ -12,24 +12,23 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = vbulletin?
-        if @output[:found]
-          @output[:version] = parse_version
-          @output[:feed] = parse_feed
+        if @output[:found] = found?
+          parse_version
+          parse_feed
         end
       end
       
       private
-      def vbulletin?
+      def found?
         !!(meta_generator_content =~ /vBulletin/)
       end
       
       def parse_feed
-        text_at("//link[@type='application/rss+xml']/@href")
+        @output[:feed] = text_at("//link[@type='application/rss+xml']/@href")
       end
       
       def parse_version
-        meta_generator_content.match(/([\d]+\.[\d]+\.[\d]+)/) ? $1 : false
+        @output[:version] = (meta_generator_content.match(/([\d]+\.[\d]+\.[\d]+)/) ? $1 : false)
       end
       
       def meta_generator_content

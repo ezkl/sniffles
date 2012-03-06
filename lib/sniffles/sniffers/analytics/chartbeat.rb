@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = chartbeat?
+        @output[:found] = found?
       end
       
       private
-      def chartbeat?
+      def found?
         match? /static\.chartbeat\.com\/js\/chartbeat\.js/
       end
     end

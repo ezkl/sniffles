@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = tumblr?
+        @output[:found] = found?
       end
       
       private
-      def tumblr?
+      def found?
         match?(/assets\.tumblr\.com\/iframe/) && match?(/<!-- BEGIN TUMBLR CODE -->/)
       end
     end

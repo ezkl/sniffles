@@ -12,11 +12,11 @@ module Sniffles
       end
       
       def process_document
-        @output[:found] = quantcast?
+        @output[:found] = found?
       end
       
       private
-      def quantcast?
+      def found?
         match?(/\.quantserve\.com\/quant\.js/)
       end
     end
