@@ -17,7 +17,7 @@ module Sniffles
       
       private
       def found?
-        !!(meta_generator_content. =~ /Movable Type/)
+        !!(meta_generator_content =~ /Movable Type/)
       end
 
       def meta_generator_content

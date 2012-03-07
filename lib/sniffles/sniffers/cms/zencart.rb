@@ -17,7 +17,7 @@ module Sniffles
       
       private
       def found?
-        !!(meta_generator_content. =~ /by Zen Cart/)
+        !!(meta_generator_content =~ /by Zen Cart/)
       end
 
       def meta_generator_content
