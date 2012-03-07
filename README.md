@@ -1,8 +1,16 @@
 # Sniffles
 ## Description
-Sniffles parses HTML pages and searches for common patterns suggesting a page is using popular CMS, CSS, and JS libraries.
+Sniffles parses HTML pages and searches for common patterns suggesting a page is using a popular CMS or advertising platform as well as CSS and JS libraries.
 
-**Work in Progress!**
+It it continuously tested against Rubies 1.8.7, 1.9.2, and 1.9.3 thanks to the fantastic [Travis-CI](http://travis-ci.org/#!/ezkl/sniffles).
+
+### What is a sniffer?
+This library uses the term **sniffer** to refer to a pattern that determines where a page is using a particular platform or library. A sniffer may also include methods to extract other metadata once a platform or library has been identified.
+
+### Work in progress!
+Sniffles should be considered a work in progress. Many of the matching patterns are little more than regular expressions matching commonly found "Powered by" text. 
+
+If you find a bug or want to add a feature to a sniffer, [open an issue](https://github.com/ezkl/sniffles/issues/new)! The URL of an example page that Sniffles misidentifies is help. Pull requests are, of course, greatly appreciated.
 
 ## Installation
 Rubygems:
@@ -40,6 +48,8 @@ Or an entire group of sniffers:
     # :quantcast=>{:found=>true}}
 
 ## Sniffers (v0.1.2)
+Here are a list of currently implemented sniffers, grouped by category. You can see a list of unimplemented sniffers by [filtering issues by "sniffer"](https://github.com/ezkl/sniffles/issues?labels=sniffer&state=open).
+
 ### Advertising
 * AdMeld
 * AdSense
