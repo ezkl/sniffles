@@ -2,7 +2,10 @@
 ## Description
 Sniffles parses HTML pages and searches for common patterns suggesting a page is using a popular CMS or advertising platform as well as CSS and JS libraries.
 
-It it continuously tested against Rubies 1.8.7, 1.9.2, and 1.9.3 thanks to the fantastic [Travis-CI](http://travis-ci.org/#!/ezkl/sniffles).
+The master branch is continuously tested against Rubies 1.8.7, 1.9.2, and 1.9.3 thanks to the fantastic [Travis-CI](http://travis-ci.org/#!/ezkl/sniffles).
+
+Current CI status: [![Build Status](https://secure.travis-ci.org/ezkl/sniffles.png?branch=master)](http://travis-ci.org/ezkl/sniffles)
+
 
 ### What is a sniffer?
 This library uses the term **sniffer** to refer to a pattern that determines where a page is using a particular platform or library. A sniffer may also include methods to extract other metadata once a platform or library has been identified.
@@ -47,7 +50,7 @@ Or an entire group of sniffers:
     # :mixpanel=>{:found=>true},
     # :quantcast=>{:found=>true}}
 
-## Sniffers (v0.1.2)
+## Sniffers (v0.1.3)
 Here are a list of currently implemented sniffers, grouped by category. You can see a list of unimplemented sniffers by [filtering issues by "sniffer"](https://github.com/ezkl/sniffles/issues?labels=sniffer&state=open).
 
 ### Advertising
@@ -55,6 +58,10 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * AdSense
 * BuySellAds
 * Casale
+* GumGum
+* Kontera
+* TheDeck
+* TribalFusion
 
 ### Analytics
 * ChartBeat
@@ -62,16 +69,25 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * Google Analytics
 * KISSMetrics
 * MixPanel
+* Piwik
 * Quantcast
 
 ### CMS
+* BigCommerce
 * Blogger
 * CS-Cart
+* FlatPress
+* Invision
+* Joomla
 * MovableType
+* MyBB
 * osCommerce
 * phpBB
 * Posterous
+* PrestaShop
+* Shopify
 * Tumblr
+* TypePad
 * Vanilla
 * vBulletin
 * WordPress
@@ -80,3 +96,10 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 
 ### Javascript
 * jQuery
+
+## Contributors
+For a complete list see [github](https://github.com/ezkl/sniffles/contributors).
+
+### Special Thanks 
+* [Jake Austwick](https://github.com/JakeAustwick)
+* [dchuk](https://github.com/dchuk)

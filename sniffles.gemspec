@@ -2,15 +2,14 @@
 require File.expand_path('../lib/sniffles/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Ezekiel Templin", "Jake Austwick"]
+  gem.authors       = ["Ezekiel Templin"]
   gem.email         = ["zeke@templ.in"]
-  gem.description   = %q{Detects popular CMS, Javascript libraries, and other items of interest.}
-  gem.summary       = %q{Sniffles helps you determine the platforms and libraries a website is running.}
+  gem.summary       = %q{Detect the platforms and libraries a website is running.}
+  gem.description   = %q{Sniffles helps you detect which popular CMS, analytics, and advertising platforms a website is running.}
   gem.homepage      = "http://documentup.com/ezkl/sniffles"
 
-  gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
-  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
   gem.name          = "sniffles"
   gem.require_paths = ["lib"]
   gem.version       = Sniffles::VERSION
