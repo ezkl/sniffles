@@ -19,7 +19,7 @@ module Sniffles
       
       private
       def found?
-        match?(/\.google\-analytics\.com|urchinTracker/i)
+        match?(/google\-analytics\.com\/ga\.js|urchinTracker/i)
       end
       
       def parse_google_analytics_ua

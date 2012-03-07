@@ -16,6 +16,13 @@ describe Sniffles::Sniffers::GoogleAnalytics do
       it { ga.output[:found].should eq true }
       it { ga.output[:ua].should eq "UA-386965-7" }
     end
+    
+    context "inline w/ gaJsHost syntax", :vcr => { :cassette_name => "blackhatworld_com" } do
+      let(:ga) { described_class.new(page_body("http://www.blackhatworld.com/index.php")) }
+      
+      it { ga.output[:found].should eq true }
+      it { ga.output[:ua].should eq "UA-24324223-1" }
+    end
 
     context "no google analytics" do
       let(:blank) { described_class.new(empty_html_doc) }
