@@ -39,7 +39,7 @@ Or an entire group of sniffers:
     # :mixpanel=>{:found=>true},
     # :quantcast=>{:found=>true}}
 
-## Sniffers
+## Sniffers (v0.1.2)
 ### Advertising
 * AdMeld
 * AdSense
