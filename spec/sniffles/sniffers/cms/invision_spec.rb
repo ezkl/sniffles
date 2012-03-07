@@ -4,16 +4,23 @@ require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sni
 describe Sniffles::Sniffers::Invision do
   describe "#output" do    
     context "invision", :vcr => { :cassette_name => "community_invisionpower_com" } do
-      let(:invision)   { described_class.new(page_body("http://community.invisionpower.com/")) }
+      subject { described_class.new(page_body("http://community.invisionpower.com/")).output }
       
-      it { invision.output[:found].should eq true }
-      it { invision.output[:version].should eq "3.3.0 Beta 3" }
+      its([:found])   { should eq true }
+      its([:version]) { should eq "3.3.0 Beta 3" }
+    end
+    
+    context "invision w/o version", :vcr => { :cassette_name => "invisionmodding_com" } do
+      subject { described_class.new(page_body("http://invisionmodding.com/")).output }
+
+      its([:found])   { should eq true }
+      its([:version]) { should eq false }
     end
     
     context "not invision" do
-      let(:blank)   { described_class.new(empty_html_doc) }
+      subject { described_class.new(empty_html_doc).output }
       
-      it { blank.output[:found].should eq false }
+      its([:found]) { should eq false }
     end
   end
 end
