@@ -27,7 +27,7 @@ You can pass in a single sniffer:
 Or multiple sniffers:
 
     Sniffles.sniff(response.body, :google_analytics, :kissmetrics)
-    # => {:google_analytics=>{:found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false}}
+    # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false} }
     
 Or an entire group of sniffers:
 
