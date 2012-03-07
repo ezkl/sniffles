@@ -17,5 +17,56 @@ Bundler:
     require 'sniffles'
     require 'typhoeus' # Optional: Use your favorite HTTP client.
     
-    response = Typhoeus::Request.get("http://www.wordpress.com/")
-    Sniffles.sniff(response.body) # => {wordpress: true, jquery: true, quantcast: true}
+    response = Typhoeus::Request.get("http://www.squidoo.com/")
+    
+You can pass in a single sniffer:
+
+    Sniffles.sniff(response.body, :google_analytics) 
+    # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2" } }
+
+Or multiple sniffers:
+
+    Sniffles.sniff(response.body, :google_analytics, :kissmetrics)
+    # => {:google_analytics=>{:found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false}}
+    
+Or an entire group of sniffers:
+
+    Sniffles.sniff(response.body, :analytics)
+    # => {:chartbeat=>{:found=>false},
+    # :clicky=>{:found=>false},
+    # :google_analytics=>{:found=>true, :ua=>"UA-185209-2"},
+    # :kissmetrics=>{:found=>false},
+    # :mixpanel=>{:found=>true},
+    # :quantcast=>{:found=>true}}
+
+## Sniffers
+### Advertising
+* AdMeld
+* AdSense
+* BuySellAds
+* Casale
+
+### Analytics
+* ChartBeat
+* Clicky
+* Google Analytics
+* KISSMetrics
+* MixPanel
+* Quantcast
+
+### CMS
+* Blogger
+* CS-Cart
+* MovableType
+* osCommerce
+* phpBB
+* Posterous
+* Tumblr
+* Vanilla
+* vBulletin
+* WordPress
+* XenForo
+* ZenCart
+
+### Javascript
+* jQuery
