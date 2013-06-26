@@ -25,32 +25,40 @@ Bundler:
 `gem 'sniffles'`
 
 ## Usage
-    require 'sniffles'
-    require 'typhoeus' # Optional: Use your favorite HTTP client.
-    
-    response = Typhoeus::Request.get("http://www.squidoo.com/")
-    
+```
+require 'sniffles'
+require 'typhoeus' # Optional: Use your favorite HTTP client.
+
+response = Typhoeus::Request.get("http://www.squidoo.com/")
+```
+
 You can pass in a single sniffer:
 
-    Sniffles.sniff(response.body, :google_analytics) 
-    # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2" } }
+```
+Sniffles.sniff(response.body, :google_analytics) 
+# => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2" } }
+```
 
 Or multiple sniffers:
 
-    Sniffles.sniff(response.body, :google_analytics, :kissmetrics)
-    # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false} }
-    
+```
+Sniffles.sniff(response.body, :google_analytics, :kissmetrics)
+# => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false} }
+```
+
 Or an entire group of sniffers:
 
-    Sniffles.sniff(response.body, :analytics)
-    # => {:chartbeat=>{:found=>false},
-    # :clicky=>{:found=>false},
-    # :google_analytics=>{:found=>true, :ua=>"UA-185209-2"},
-    # :kissmetrics=>{:found=>false},
-    # :mixpanel=>{:found=>true},
-    # :quantcast=>{:found=>true}}
+```
+Sniffles.sniff(response.body, :analytics)
+# => {:chartbeat=>{:found=>false},
+# :clicky=>{:found=>false},
+# :google_analytics=>{:found=>true, :ua=>"UA-185209-2"},
+# :kissmetrics=>{:found=>false},
+# :mixpanel=>{:found=>true},
+# :quantcast=>{:found=>true}}
+```
 
-## Sniffers (v0.1.3)
+## Sniffers (v0.1.5)
 Here are a list of currently implemented sniffers, grouped by category. You can see a list of unimplemented sniffers by [filtering issues by "sniffer"](https://github.com/ezkl/sniffles/issues?labels=sniffer&state=open).
 
 ### Advertising
@@ -67,6 +75,7 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * ChartBeat
 * Clicky
 * Google Analytics
+* Facebook Insights
 * KISSMetrics
 * MixPanel
 * Piwik
@@ -76,9 +85,11 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * BigCommerce
 * Blogger
 * CS-Cart
+* Drupal
 * FlatPress
 * Invision
 * Joomla
+* Magento
 * MovableType
 * MyBB
 * osCommerce
@@ -86,6 +97,7 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * Posterous
 * PrestaShop
 * Shopify
+* Sitefinity
 * Tumblr
 * TypePad
 * Vanilla

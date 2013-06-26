@@ -13,9 +13,9 @@ Gem::Specification.new do |gem|
   gem.name          = "sniffles"
   gem.require_paths = ["lib"]
   gem.version       = Sniffles::VERSION
-  
+
   gem.add_runtime_dependency("nokogiri", "~> 1.5.0")
-  
+
   gem.add_development_dependency("rspec", "~> 2.9.0")
   gem.add_development_dependency("typhoeus", "~> 0.3.3")
   gem.add_development_dependency("vcr", "~> 2.0.0")
