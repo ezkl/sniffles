@@ -58,7 +58,7 @@ Sniffles.sniff(response.body, :analytics)
 # :quantcast=>{:found=>true}}
 ```
 
-## Sniffers (v0.1.5)
+## Sniffers ([HEAD](https://github.com/ezkl/sniffles/tree/master))
 Here are a list of currently implemented sniffers, grouped by category. You can see a list of unimplemented sniffers by [filtering issues by "sniffer"](https://github.com/ezkl/sniffles/issues?labels=sniffer&state=open).
 
 ### Advertising
@@ -103,6 +103,7 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 * Vanilla
 * vBulletin
 * WordPress
+* Xcart
 * XenForo
 * ZenCart
 
