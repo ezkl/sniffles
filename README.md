@@ -25,7 +25,7 @@ Bundler:
 `gem 'sniffles'`
 
 ## Usage
-```
+```ruby
 require 'sniffles'
 require 'typhoeus' # Optional: Use your favorite HTTP client.
 
@@ -34,21 +34,21 @@ response = Typhoeus::Request.get("http://www.squidoo.com/")
 
 You can pass in a single sniffer:
 
-```
+```ruby
 Sniffles.sniff(response.body, :google_analytics) 
 # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2" } }
 ```
 
 Or multiple sniffers:
 
-```
+```ruby
 Sniffles.sniff(response.body, :google_analytics, :kissmetrics)
 # => { :google_analytics=> { :found=>true, :ua=>"UA-185209-2"}, :kissmetrics=>{:found=>false} }
 ```
 
 Or an entire group of sniffers:
 
-```
+```ruby
 Sniffles.sniff(response.body, :analytics)
 # => {:chartbeat=>{:found=>false},
 # :clicky=>{:found=>false},
