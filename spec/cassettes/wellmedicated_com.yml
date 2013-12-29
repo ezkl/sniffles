@@ -6,14 +6,17 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/32.0.1700.68 Safari/537.36
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Sun, 29 Dec 2013 11:54:23 GMT
+      - Sun, 29 Dec 2013 14:21:37 GMT
       Server:
       - Apache/2.2.14 (Ubuntu)
       X-Powered-By:
@@ -789,10 +792,10 @@ http_interactions:
         PSJ0ZXh0L2phdmFzY3JpcHQiPgo8L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0
         ZXh0L2phdmFzY3JpcHQiPgpfdWFjY3QgPSAiVUEtMjM2MDc2OS0yIjsKdXJj
         aGluVHJhY2tlcigpOwo8L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+CjwhLS0g
-        RHluYW1pYyBwYWdlIGdlbmVyYXRlZCBpbiAwLjQ0NiBzZWNvbmRzLiAtLT4K
+        RHluYW1pYyBwYWdlIGdlbmVyYXRlZCBpbiAwLjYxMiBzZWNvbmRzLiAtLT4K
         PCEtLSBDYWNoZWQgcGFnZSBnZW5lcmF0ZWQgYnkgV1AtU3VwZXItQ2FjaGUg
-        b24gMjAxMy0xMi0yOSAwNDoyODoxMSAtLT4KPCEtLSBzdXBlciBjYWNoZSAt
+        b24gMjAxMy0xMi0yOSAwNjo1MDo0NSAtLT4KPCEtLSBzdXBlciBjYWNoZSAt
         LT4=
     http_version: '1.1'
-  recorded_at: Sun, 29 Dec 2013 11:54:23 GMT
+  recorded_at: Sun, 29 Dec 2013 14:21:37 GMT
 recorded_with: VCR 2.8.0

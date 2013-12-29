@@ -6,7 +6,10 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/32.0.1700.68 Safari/537.36
   response:
     status:
       code: 200
@@ -15,7 +18,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sun, 29 Dec 2013 07:55:14 GMT
+      - Sun, 29 Dec 2013 14:21:11 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -23,24 +26,24 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d2d79eeb54130bf3e0e62eec1bbb0d2e61388303714603; expires=Mon, 23-Dec-2019
+      - __cfduid=d29fabee18f99ec6a1d6eae72bcc1c4981388326871415; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.digital-photography-school.com; HttpOnly
       Link:
-      - "<http://digital-photography-school.com/?p=986>; rel=shortlink"
+      - <http://digital-photography-school.com/?p=986>; rel=shortlink
       Last-Modified:
-      - Sun, 29 Dec 2013 07:54:43 GMT
+      - Sun, 29 Dec 2013 14:20:49 GMT
       Vary:
       - Accept-Encoding
       X-Pingback:
       - http://digital-photography-school.com/xmlrpc.php
       X-Real-Ip:
-      - 173.245.55.144
+      - 108.162.219.187
       Age:
-      - '31'
+      - '22'
       X-Cache:
       - HIT
       Cf-Ray:
-      - e44ed4840c40663
+      - e4722a25f32065d
       Content-Encoding:
       - gzip
     body:
@@ -645,9 +648,9 @@ http_interactions:
         \ <!--\n  function EJEJC_lc(th) { return false; }\n  // -->\n</script>\n<script
         type=\"text/javascript\" src=\"https://www.e-junkie.com/ecom/box.js\"></script>\n\n</body>\n</html>\n\r\n<!--
         Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/\r\n\r\nPage
-        Caching using memcached\r\nDatabase Caching 121/132 queries in 0.051 seconds
+        Caching using memcached\r\nDatabase Caching 121/132 queries in 0.044 seconds
         using memcached\r\nApplication Monitoring using New Relic\r\n\r\n Served from:
-        digital-photography-school.com @ 2013-12-29 18:54:43 by W3 Total Cache -->"
+        digital-photography-school.com @ 2013-12-30 01:20:49 by W3 Total Cache -->"
     http_version: '1.1'
-  recorded_at: Sun, 29 Dec 2013 07:55:14 GMT
+  recorded_at: Sun, 29 Dec 2013 14:21:11 GMT
 recorded_with: VCR 2.8.0

@@ -1,0 +1,588 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ocbfashionjewelry.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/32.0.1700.68 Safari/537.36
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 29 Dec 2013 14:21:40 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Encoding:
+      - gzip
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - zenid=d3c0c36d1490fc165fb2392e33a3446b; path=/; domain=.ocbfashionjewelry.com;
+        HttpOnly
+      - uti_session=uxmlozhmtogxejbzhutfdkxzjxxcmwlgtxriwzuq; expires=Wed, 29-Jan-2014
+        14:21:40 GMT; path=/; domain=.orangecrushbeads.com
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\" lang=\"en\" xmlns:fb=\"http://ogp.me/ns/fb#\">\n<head>\n<title>Orange
+        Crush Beads, Beautiful Trendy Handmade Fashion Costume Jewelry</title>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta
+        name=\"keywords\" content=\"Gift Certificates Bracelet Collection Necklace
+        Collection Earrings Collection bead bracelet,charm bracelets,costume jewelry,crystal
+        swarovski jewelry,custom size bracelets,fashion bracelets,fashion earrings,fashion
+        handmade jewelry,fashion jewelry,fashion necklaces,fashion trendy jewelry,handcrafted
+        jewelry,handmade bracelets,handmade earrings,handmade fashion jewelry,handmade
+        jewelry,handmade necklaces,handmade swarovski jewelry,kids bracelets,plus
+        size bracelet,plus size bracelets,swarovski,swarovski crystal earrings,swarovski
+        crystal handmade bracelet,swarovski elements earrings,swarovski elements jewelry,swarovski
+        handmade bracelet,swarovski jewelry,top fashion jewelry,trendy fashion jewelry,unique
+        fashion jewelry,one of a kind jewelry \" />\n<meta name=\"description\" content=\"Orange
+        Crush Beads sells beautiful trendy handmade fashion costume jewelry, including
+        unique one of a kind earrings, bracelets and necklaces using Swarovski crystals
+        and more\" />\n<meta http-equiv=\"imagetoolbar\" content=\"no\" />\n<meta
+        name=\"author\" content=\"The Zen Cart&reg; Team and others\" />\n<meta name=\"generator\"
+        content=\"shopping cart program by Zen Cart&reg;, http://www.zen-cart.com
+        eCommerce\" />\n<link rel=\"icon\" href=\"includes/templates/theme671/favicon.ico\"
+        type=\"image/x-icon\" />\n<link rel=\"shortcut icon\" href=\"FAVICON\" type=\"image/x-icon\"
+        />\n<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'
+        type='text/css'/>\n<base href=\"http://ocbfashionjewelry.com/\" />\n<link
+        rel=\"canonical\" href=\"http://ocbfashionjewelry.com/\" />\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_boxes.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_css_buttons.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_ezpages_footer_columns.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_header_menu.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_lightbox-0.5.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_main.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_social_media_icons.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/stylesheet_tm.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"includes/templates/theme671/css/index_home.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" media=\"print\" href=\"includes/templates/theme671/css/print_stylesheet.css\"
+        />\n<script type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_jquery-1.7.1.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_nivo.slider.pack.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_script.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_xdropdown_menu.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_xeasyTooltip.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_xjquery.easing.1.3.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_xjquery.jqtransform.js\"></script>\n<script
+        type=\"text/javascript\" src=\"includes/templates/theme671/jscript/jscript_xjquery.lightbox-0.5.js\"></script>\n<script
+        type=\"text/javascript\">\n<!--\n/*\n * \tEasy Slider 1.7 - jQuery plugin\n
+        *\twritten by Alen Grakalic\t\n *\thttp://cssglobe.com/post/4004/easy-slider-15-the-easiest-jquery-plugin-for-sliding\n
+        *\n *\tCopyright (c) 2009 Alen Grakalic (http://cssglobe.com)\n *\tDual licensed
+        under the MIT (MIT-LICENSE.txt)\n *\tand GPL (GPL-LICENSE.txt) licenses.\n
+        *\n *\tBuilt for jQuery library\n *\thttp://jquery.com\n *\n */\n \n/*\n *\tmarkup
+        example for $(\"#slider\").easySlider();\n *\t\n * \t<div id=\"slider\">\n
+        *\t\t<ul>\n *\t\t\t<li><img src=\"images/01.jpg\" alt=\"\" /></li>\n *\t\t\t<li><img
+        src=\"images/02.jpg\" alt=\"\" /></li>\n *\t\t\t<li><img src=\"images/03.jpg\"
+        alt=\"\" /></li>\n *\t\t\t<li><img src=\"images/04.jpg\" alt=\"\" /></li>\n
+        *\t\t\t<li><img src=\"images/05.jpg\" alt=\"\" /></li>\n *\t\t</ul>\n *\t</div>\n
+        *\n */\n\n\n(function($) {\n\n\t$.fn.easySlider = function(options){\n\t  \n\t\t//
+        default configuration properties\n\t\tvar defaults = {\t\t\t\n\t\t\tprevId:
+        \t\t'prevBtn',\n\t\t\tprevText: \t\t'Previous',\n\t\t\tnextId: \t\t'nextBtn',\t\n\t\t\tnextText:
+        \t\t'Next',\n\t\t\tcontrolsShow:\ttrue,\n\t\t\tcontrolsBefore:\t'',\n\t\t\tcontrolsAfter:\t'',\t\n\t\t\tcontrolsFade:\ttrue,\n\t\t\tfirstId:
+        \t\t'firstBtn',\n\t\t\tfirstText: \t\t'First',\n\t\t\tfirstShow:\t\tfalse,\n\t\t\tlastId:
+        \t\t'lastBtn',\t\n\t\t\tlastText: \t\t'Last',\n\t\t\tlastShow:\t\tfalse,\t\t\t\t\n\t\t\tvertical:\t\tfalse,\n\t\t\tspeed:
+        \t\t\t3000,\n\t\t\tauto:\t\t\tfalse,\n\t\t\tpause:\t\t\t3000,\n\t\t\tcontinuous:\t\tfalse,
+        \n\t\t\tnumeric: \t\tfalse,\n\t\t\tnumericId: \t\t'controls'\n\t\t}; \n\t\t\n\t\tvar
+        options = $.extend(defaults, options);  \n\t\t\t\t\n\t\tthis.each(function()
+        {  \n\t\t\tvar obj = $(this); \t\t\t\t\n\t\t\tvar s = $(\"li\", obj).length;\n\t\t\tvar
+        w = $(\"li\", obj).width(); \n\t\t\tvar h = $(\"li\", obj).height(); \n\t\t\tvar
+        clickable = true;\n\t\t\tobj.width(w); \n\t\t\tobj.height(h); \n\t\t\tobj.css(\"overflow\",\"hidden\");\n\t\t\tvar
+        ts = s-1;\n\t\t\tvar t = 0;\n\t\t\t$(\"ul\", obj).css('width',s*w);\t\t\t\n\t\t\t\n\t\t\tif(options.continuous){\n\t\t\t\t$(\"ul\",
+        obj).prepend($(\"ul li:last-child\", obj).clone().css(\"margin-left\",\"-\"+
+        w +\"px\"));\n\t\t\t\t$(\"ul\", obj).append($(\"ul li:nth-child(2)\", obj).clone());\n\t\t\t\t$(\"ul\",
+        obj).css('width',(s+1)*w);\n\t\t\t};\t\t\t\t\n\t\t\t\n\t\t\tif(!options.vertical)
+        $(\"li\", obj).css('float','left');\n\t\t\t\t\t\t\t\t\n\t\t\tif(options.controlsShow){\n\t\t\t\tvar
+        html = options.controlsBefore;\t\t\t\t\n\t\t\t\tif(options.numeric){\n\t\t\t\t\thtml
+        += '<div id=\"control_div\"><ol id=\"'+ options.numericId +'\"></div></ol>';\n\t\t\t\t}
+        else {\n\t\t\t\t\tif(options.firstShow) html += '<span id=\"'+ options.firstId
+        +'\"><a href=\\\"javascript:void(0);\\\">'+ options.firstText +'</a></span>';\n\t\t\t\t\thtml
+        += ' <span id=\"'+ options.prevId +'\"><a href=\\\"javascript:void(0);\\\">'+
+        options.prevText +'</a></span>';\n\t\t\t\t\thtml += ' <span id=\"'+ options.nextId
+        +'\"><a href=\\\"javascript:void(0);\\\">'+ options.nextText +'</a></span>';\n\t\t\t\t\tif(options.lastShow)
+        html += ' <span id=\"'+ options.lastId +'\"><a href=\\\"javascript:void(0);\\\">'+
+        options.lastText +'</a></span>';\t\t\t\t\n\t\t\t\t};\n\t\t\t\t\n\t\t\t\thtml
+        += options.controlsAfter;\t\t\t\t\t\t\n\t\t\t\t$(obj).after(html);\t\t\t\t\t\t\t\t\t\t\n\t\t\t};\n\t\t\t\n\t\t\tif(options.numeric){\t\t\t\t\t\t\t\t\t\n\t\t\t\tfor(var
+        i=0;i<s;i++){\t\t\t\t\t\t\n\t\t\t\t\t$(document.createElement(\"li\"))\n\t\t\t\t\t\t.attr('id',options.numericId
+        + (i+1))\n\t\t\t\t\t\t.html('<a rel='+ i +' href=\\\"javascript:void(0);\\\">'+
+        (i+1) +'</a>')\n\t\t\t\t\t\t.appendTo($(\"#\"+ options.numericId))\n\t\t\t\t\t\t.click(function(){\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tanimate($(\"a\",$(this)).attr('rel'),true);\n\t\t\t\t\t\t});
+        \t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t};\t\t\t\t\t\t\t\n\t\t\t} else {\n\t\t\t\t$(\"a\",\"#\"+options.nextId).click(function(){\t\t\n\t\t\t\t\tanimate(\"next\",true);\n\t\t\t\t});\n\t\t\t\t$(\"a\",\"#\"+options.prevId).click(function(){\t\t\n\t\t\t\t\tanimate(\"prev\",true);\t\t\t\t\n\t\t\t\t});\t\n\t\t\t\t$(\"a\",\"#\"+options.firstId).click(function(){\t\t\n\t\t\t\t\tanimate(\"first\",true);\n\t\t\t\t});\t\t\t\t\n\t\t\t\t$(\"a\",\"#\"+options.lastId).click(function(){\t\t\n\t\t\t\t\tanimate(\"last\",true);\t\t\t\t\n\t\t\t\t});\t\t\t\t\n\t\t\t};\n\t\t\t\n\t\t\tfunction
+        setCurrent(i){\n\t\t\t\ti = parseInt(i)+1;\n\t\t\t\t$(\"li\", \"#\" + options.numericId).removeClass(\"current\");\n\t\t\t\t$(\"li#\"
+        + options.numericId + i).addClass(\"current\");\n\t\t\t};\n\t\t\t\n\t\t\tfunction
+        adjust(){\n\t\t\t\tif(t>ts) t=0;\t\t\n\t\t\t\tif(t<0) t=ts;\t\n\t\t\t\tif(!options.vertical)
+        {\n\t\t\t\t\t$(\"ul\",obj).css(\"margin-left\",(t*w*-1));\n\t\t\t\t} else
+        {\n\t\t\t\t\t$(\"ul\",obj).css(\"margin-left\",(t*h*-1));\n\t\t\t\t}\n\t\t\t\tclickable
+        = true;\n\t\t\t\tif(options.numeric) setCurrent(t);\n\t\t\t};\n\t\t\t\n\t\t\tfunction
+        animate(dir,clicked){\n\t\t\t\tif (clickable){\n\t\t\t\t\tclickable = false;\n\t\t\t\t\tvar
+        ot = t;\t\t\t\t\n\t\t\t\t\tswitch(dir){\n\t\t\t\t\t\tcase \"next\":\n\t\t\t\t\t\t\tt
+        = (ot>=ts) ? (options.continuous ? t+1 : ts) : t+1;\t\t\t\t\t\t\n\t\t\t\t\t\t\tbreak;
+        \n\t\t\t\t\t\tcase \"prev\":\n\t\t\t\t\t\t\tt = (t<=0) ? (options.continuous
+        ? t-1 : 0) : t-1;\n\t\t\t\t\t\t\tbreak; \n\t\t\t\t\t\tcase \"first\":\n\t\t\t\t\t\t\tt
+        = 0;\n\t\t\t\t\t\t\tbreak; \n\t\t\t\t\t\tcase \"last\":\n\t\t\t\t\t\t\tt =
+        ts;\n\t\t\t\t\t\t\tbreak; \n\t\t\t\t\t\tdefault:\n\t\t\t\t\t\t\tt = dir;\n\t\t\t\t\t\t\tbreak;
+        \n\t\t\t\t\t};\t\n\t\t\t\t\tvar diff = Math.abs(ot-t);\n\t\t\t\t\tvar speed
+        = diff*options.speed;\t\t\t\t\t\t\n\t\t\t\t\tif(!options.vertical) {\n\t\t\t\t\t\tp
+        = (t*w*-1);\n\t\t\t\t\t\t$(\"ul\",obj).animate(\n\t\t\t\t\t\t\t{ marginLeft:
+        p }, \n\t\t\t\t\t\t\t{ queue:false, duration:speed, complete:adjust }\n\t\t\t\t\t\t);\t\t\t\t\n\t\t\t\t\t}
+        else {\n\t\t\t\t\t\tp = (t*h*-1);\n\t\t\t\t\t\t$(\"ul\",obj).animate(\n\t\t\t\t\t\t\t{
+        marginTop: p }, \n\t\t\t\t\t\t\t{ queue:false, duration:speed, complete:adjust
+        }\n\t\t\t\t\t\t);\t\t\t\t\t\n\t\t\t\t\t};\n\t\t\t\t\t\n\t\t\t\t\tif(!options.continuous
+        && options.controlsFade){\t\t\t\t\t\n\t\t\t\t\t\tif(t==ts){\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.nextId).hide();\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.lastId).hide();\n\t\t\t\t\t\t}
+        else {\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.nextId).show();\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.lastId).show();\t\t\t\t\t\n\t\t\t\t\t\t};\n\t\t\t\t\t\tif(t==0){\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.prevId).hide();\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.firstId).hide();\n\t\t\t\t\t\t}
+        else {\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.prevId).show();\n\t\t\t\t\t\t\t$(\"a\",\"#\"+options.firstId).show();\n\t\t\t\t\t\t};\t\t\t\t\t\n\t\t\t\t\t};\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tif(clicked)
+        clearTimeout(timeout);\n\t\t\t\t\tif(options.auto && dir==\"next\" && !clicked){;\n\t\t\t\t\t\ttimeout
+        = setTimeout(function(){\n\t\t\t\t\t\t\tanimate(\"next\",false);\n\t\t\t\t\t\t},diff*options.speed+options.pause);\n\t\t\t\t\t};\n\t\t\t\n\t\t\t\t};\n\t\t\t\t\n\t\t\t};\n\t\t\t//
+        init\n\t\t\tvar timeout;\n\t\t\tif(options.auto){;\n\t\t\t\ttimeout = setTimeout(function(){\n\t\t\t\t\tanimate(\"next\",false);\n\t\t\t\t},options.pause);\n\t\t\t};\t\t\n\t\t\t\n\t\t\tif(options.numeric)
+        setCurrent(0);\n\t\t\n\t\t\tif(!options.continuous && options.controlsFade){\t\t\t\t\t\n\t\t\t\t$(\"a\",\"#\"+options.prevId).hide();\n\t\t\t\t$(\"a\",\"#\"+options.firstId).hide();\t\t\t\t\n\t\t\t};\t\t\t\t\n\t\t\t\n\t\t});\n\t
+        \ \n\t};\n\n})(jQuery);\n\n-->\n\n</script>\n\n\n\n\n<script type=\"text/javascript\">\n/*\n*
+        Slides, A Slideshow Plugin for jQuery\n* Intructions: http://slidesjs.com\n*
+        By: Nathan Searles, http://nathansearles.com\n* Version: 1.1.9\n* Updated:
+        September 5th, 2011\n*\n* Licensed under the Apache License, Version 2.0 (the
+        \"License\");\n* you may not use this file except in compliance with the License.\n*
+        You may obtain a copy of the License at\n*\n* http://www.apache.org/licenses/LICENSE-2.0\n*\n*
+        Unless required by applicable law or agreed to in writing, software\n* distributed
+        under the License is distributed on an \"AS IS\" BASIS,\n* WITHOUT WARRANTIES
+        OR CONDITIONS OF ANY KIND, either express or implied.\n* See the License for
+        the specific language governing permissions and\n* limitations under the License.\n*/\n<!--\n(function(a){a.fn.slides=function(b){return
+        b=a.extend({},a.fn.slides.option,b),this.each(function(){function w(g,h,i){if(!p&&o){p=!0,b.animationStart(n+1);switch(g){case\"next\":l=n,k=n+1,k=e===k?0:k,r=f*2,g=-f*2,n=k;break;case\"prev\":l=n,k=n-1,k=k===-1?e-1:k,r=0,g=0,n=k;break;case\"pagination\":k=parseInt(i,10),l=a(\".\"+b.paginationClass+\"
+        li.\"+b.currentClass+\" a\",c).attr(\"href\").match(\"[^#/]+$\"),k>l?(r=f*2,g=-f*2):(r=0,g=0),n=k}h===\"fade\"?b.crossfade?d.children(\":eq(\"+k+\")\",c).css({zIndex:10}).fadeIn(b.fadeSpeed,b.fadeEasing,function(){b.autoHeight?d.animate({height:d.children(\":eq(\"+k+\")\",c).outerHeight()},b.autoHeightSpeed,function(){d.children(\":eq(\"+l+\")\",c).css({display:\"none\",zIndex:0}),d.children(\":eq(\"+k+\")\",c).css({zIndex:0}),b.animationComplete(k+1),p=!1}):(d.children(\":eq(\"+l+\")\",c).css({display:\"none\",zIndex:0}),d.children(\":eq(\"+k+\")\",c).css({zIndex:0}),b.animationComplete(k+1),p=!1)}):d.children(\":eq(\"+l+\")\",c).fadeOut(b.fadeSpeed,b.fadeEasing,function(){b.autoHeight?d.animate({height:d.children(\":eq(\"+k+\")\",c).outerHeight()},b.autoHeightSpeed,function(){d.children(\":eq(\"+k+\")\",c).fadeIn(b.fadeSpeed,b.fadeEasing)}):d.children(\":eq(\"+k+\")\",c).fadeIn(b.fadeSpeed,b.fadeEasing,function(){a.browser.msie&&a(this).get(0).style.removeAttribute(\"filter\")}),b.animationComplete(k+1),p=!1}):(d.children(\":eq(\"+k+\")\").css({left:r,display:\"block\"}),b.autoHeight?d.animate({left:g,height:d.children(\":eq(\"+k+\")\").outerHeight()},b.slideSpeed,b.slideEasing,function(){d.css({left:-f}),d.children(\":eq(\"+k+\")\").css({left:f,zIndex:5}),d.children(\":eq(\"+l+\")\").css({left:f,display:\"none\",zIndex:0}),b.animationComplete(k+1),p=!1}):d.animate({left:g},b.slideSpeed,b.slideEasing,function(){d.css({left:-f}),d.children(\":eq(\"+k+\")\").css({left:f,zIndex:5}),d.children(\":eq(\"+l+\")\").css({left:f,display:\"none\",zIndex:0}),b.animationComplete(k+1),p=!1})),b.pagination&&(a(\".\"+b.paginationClass+\"
+        li.\"+b.currentClass,c).removeClass(b.currentClass),a(\".\"+b.paginationClass+\"
+        li:eq(\"+k+\")\",c).addClass(b.currentClass))}}function x(){clearInterval(c.data(\"interval\"))}function
+        y(){b.pause?(clearTimeout(c.data(\"pause\")),clearInterval(c.data(\"interval\")),u=setTimeout(function(){clearTimeout(c.data(\"pause\")),v=setInterval(function(){w(\"next\",i)},b.play),c.data(\"interval\",v)},b.pause),c.data(\"pause\",u)):x()}a(\".\"+b.container,a(this)).children().wrapAll('<div
+        class=\"slides_control\"/>');var c=a(this),d=a(\".slides_control\",c),e=d.children().size(),f=d.children().outerWidth(),g=d.children().outerHeight(),h=b.start-1,i=b.effect.indexOf(\",\")<0?b.effect:b.effect.replace(\"
+        \",\"\").split(\",\")[0],j=b.effect.indexOf(\",\")<0?i:b.effect.replace(\"
+        \",\"\").split(\",\")[1],k=0,l=0,m=0,n=0,o,p,q,r,s,t,u,v;if(e<2)return a(\".\"+b.container,a(this)).fadeIn(b.fadeSpeed,b.fadeEasing,function(){o=!0,b.slidesLoaded()}),a(\".\"+b.next+\",
+        .\"+b.prev).fadeOut(0),!1;if(e<2)return;h<0&&(h=0),h>e&&(h=e-1),b.start&&(n=h),b.randomize&&d.randomize(),a(\".\"+b.container,c).css({overflow:\"hidden\",position:\"relative\"}),d.children().css({position:\"absolute\",top:0,left:d.children().outerWidth(),zIndex:0,display:\"none\"}),d.css({position:\"relative\",width:f*3,height:g,left:-f}),a(\".\"+b.container,c).css({display:\"block\"}),b.autoHeight&&(d.children().css({height:\"auto\"}),d.animate({height:d.children(\":eq(\"+h+\")\").outerHeight()},b.autoHeightSpeed));if(b.preload&&d.find(\"img:eq(\"+h+\")\").length){a(\".\"+b.container,c).css({background:\"url(\"+b.preloadImage+\")
+        no-repeat 50% 50%\"});var z=d.find(\"img:eq(\"+h+\")\").attr(\"src\")+\"?\"+(new
+        Date).getTime();a(\"img\",c).parent().attr(\"class\")!=\"slides_control\"?t=d.children(\":eq(0)\")[0].tagName.toLowerCase():t=d.find(\"img:eq(\"+h+\")\"),d.find(\"img:eq(\"+h+\")\").attr(\"src\",z).load(function(){d.find(t+\":eq(\"+h+\")\").fadeIn(b.fadeSpeed,b.fadeEasing,function(){a(this).css({zIndex:5}),a(\".\"+b.container,c).css({background:\"\"}),o=!0,b.slidesLoaded()})})}else
+        d.children(\":eq(\"+h+\")\").fadeIn(b.fadeSpeed,b.fadeEasing,function(){o=!0,b.slidesLoaded()});b.bigTarget&&(d.children().css({cursor:\"pointer\"}),d.children().click(function(){return
+        w(\"next\",i),!1})),b.hoverPause&&b.play&&(d.bind(\"mouseover\",function(){x()}),d.bind(\"mouseleave\",function(){y()})),b.generateNextPrev&&(a(\".\"+b.container,c).after('<a
+        href=\"#\" class=\"'+b.prev+'\">Prev</a>'),a(\".\"+b.prev,c).after('<a href=\"#\"
+        class=\"'+b.next+'\">Next</a>')),a(\".\"+b.next,c).click(function(a){a.preventDefault(),b.play&&y(),w(\"next\",i)}),a(\".\"+b.prev,c).click(function(a){a.preventDefault(),b.play&&y(),w(\"prev\",i)}),b.generatePagination?(b.prependPagination?c.prepend(\"<ul
+        class=\"+b.paginationClass+\"></ul>\"):c.append(\"<ul class=\"+b.paginationClass+\"></ul>\"),d.children().each(function(){a(\".\"+b.paginationClass,c).append('<li><a
+        href=\"#'+m+'\">'+(m+1)+\"</a></li>\"),m++})):a(\".\"+b.paginationClass+\"
+        li a\",c).each(function(){a(this).attr(\"href\",\"#\"+m),m++}),a(\".\"+b.paginationClass+\"
+        li:eq(\"+h+\")\",c).addClass(b.currentClass),a(\".\"+b.paginationClass+\"
+        li a\",c).click(function(){return b.play&&y(),q=a(this).attr(\"href\").match(\"[^#/]+$\"),n!=q&&w(\"pagination\",j,q),!1}),a(\"a.link\",c).click(function(){return
+        b.play&&y(),q=a(this).attr(\"href\").match(\"[^#/]+$\")-1,n!=q&&w(\"pagination\",j,q),!1}),b.play&&(v=setInterval(function(){w(\"next\",i)},b.play),c.data(\"interval\",v))})},a.fn.slides.option={preload:!1,preloadImage:\"/img/loading.gif\",container:\"slides_container\",generateNextPrev:!1,next:\"next\",prev:\"prev\",pagination:!0,generatePagination:!0,prependPagination:!1,paginationClass:\"pagination\",currentClass:\"current\",fadeSpeed:350,fadeEasing:\"\",slideSpeed:350,slideEasing:\"\",start:1,effect:\"slide\",crossfade:!1,randomize:!1,play:0,pause:0,hoverPause:!1,autoHeight:!1,autoHeightSpeed:350,bigTarget:!1,animationStart:function(){},animationComplete:function(){},slidesLoaded:function(){}},a.fn.randomize=function(b){function
+        c(){return Math.round(Math.random())-.5}return a(this).each(function(){var
+        d=a(this),e=d.children(),f=e.length;if(f>1){e.hide();var g=[];for(i=0;i<f;i++)g[g.length]=i;g=g.sort(c),a.each(g,function(a,c){var
+        f=e.eq(c),g=f.clone(!0);g.show().appendTo(d),b!==undefined&&b(f,g),f.remove()})}})}})(jQuery)\n-->\n</script>\n\n<!--[if
+        IE]>\n<script type=\"text/javascript\" src=\"catalog/view/javascript/jquery/fancybox/jquery.fancybox-1.3.4-iefix.js\"></script>\n<![endif]-->
+        \n<!--[if lt IE 8]><div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'><a
+        href=\"http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode\"><img
+        src=\"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg\"
+        border=\"0\" height=\"42\" width=\"820\" alt=\"You are using an outdated browser.
+        For a faster, safer browsing experience, upgrade for free today.\" /></a></div><![endif]-->\n<div
+        id=\"fb-root\"></div>\n<script>(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n
+        \ if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n
+        \ js.src = \"//connect.facebook.net/en_GB/all.js#xfbml=1\";\n  fjs.parentNode.insertBefore(js,
+        fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n<style type=\"text/css\">\n\t.class{
+        behavior:url(includes/templates/theme671/PIE.php)}\n</style>\n<script type=\"text/javascript\"
+        src=\"https://apis.google.com/js/plusone.js\"></script>\n<script type=\"text/javascript\">\n\t$(document).ready(function(){\n\t\t$(\"a.tooltips\").easyTooltip();\n\t});\n\t$(function(){\n
+        \   $('.currencies').jqTransform({imgPath:'//images/'}).css('display', 'block');\n
+        \t});\n</script>\n<script type=\"text/javascript\">\n$(function(){\n   $('.currencies
+        form').jqTransform({imgPath:'jqtransformplugin/img/'});\n});\n</script>\n<script
+        type=\"text/javascript\">\n$(function(){\n\t$(document).ready(function(){\n\t\t$(\".cart
+        a.on\").click(function(){\n\t\t\t$(this).toggleClass(\"active\");\n\t\t});\n\t});\n});\n</script>\n<script
+        type=\"text/javascript\">\n\t$(document).ready(function(){\n\t\t$('.cart .cart-down,
+        .cart .none').hide();\n\t\t$('.cart').hover(function(){\n\t\t\t$('.cart .cart-down,
+        .cart .none').stop(true, true).slideDown(400);\n\t\t\t},function(){\n\t\t\t$('.cart
+        .cart-down, .cart .none').stop(true, true).delay(400).slideUp(300);\n\t\t});\n\t});\n</script>\n<script
+        type=\"text/javascript\">\n   $(function() {\n\t $('.messageStackSuccess').delay(5000).fadeOut('slow');\n\t});\n</script>\n<script
+        type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount',
+        'UA-17864897-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n
+        \   var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n</head>\n\n\n<body
+        id=\"indexHomeBody\">\n\n<!-- Piwik -->\n<script type=\"text/javascript\">
+        \n  var _paq = _paq || [];\n  _paq.push(['setRequestMethod', 'POST']);\n  _paq.push(['trackPageView']);\n
+        \ _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=((\"https:\"
+        == document.location.protocol) ? \"https\" : \"http\") + \"://stats.onlinetools.ca//\";\n
+        \   _paq.push(['setTrackerUrl', u+'piwik.php']);\n    _paq.push(['setSiteId',
+        1]);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript';\n    g.defer=true; g.async=true; g.src=u+'piwik.js';
+        s.parentNode.insertBefore(g,s);\n  })();\n</script>\n\n<noscript><img src=\"http://stats.onlinetools.ca/piwik.php?idsite=1&amp;rec=1\"
+        style=\"border:0\" alt=\"\" /></noscript>\n\n<!-- End Piwik Code -->\n\n<!--
+        ========== IMAGE BORDER TOP ========== -->\n<div class=\"cont\">\n\t<div class=\"extra\">\n\t\t<div
+        class=\"main-width\">\n\t\n\t\t<!-- ======================================
+        -->\n\t\n\t\t<!-- ========== HEADER ========== -->\n\t\t\n\n\n\n    <div id=\"header\">\n\t\t<div
+        class=\"logo\">\n\t\t\t<!-- ========== LOGO ========== -->\n\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/theme671/images/logo.jpg\" alt=\"\" width=\"1025\"
+        height=\"135\" /></a>\n\t\t\t<!-- ========================== -->\n\t\t</div>\n\t\t<div
+        class=\"menu\">\n\t\t\t<!-- ========== MENU ========== -->\n\t\t\t\t\t\t\t<div
+        id=\"navEZPagesTop\"> \n  <ul>  \n      \n                <li class=\"selected
+        \ first\">  \n                    <a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">
+        \ \n                        <span class=\"corner\"></span> \n                        <span>
+        \ \n                            <span>Home</span>  \n                        </span>
+        \ \n                    </a>  \n                </li>  \n              \n
+        \               <li class=\"  \">  \n                    <a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">
+        \ \n                        <span class=\"corner\"></span> \n                        <span>
+        \ \n                            <span>New Products</span>  \n                        </span>
+        \ \n                    </a>  \n                </li>  \n              \n
+        \               <li class=\"  \">  \n                    <a href=\"http://ocbfashionjewelry.com/index.php?main_page=specials&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">
+        \ \n                        <span class=\"corner\"></span> \n                        <span>
+        \ \n                            <span>Specials</span>  \n                        </span>
+        \ \n                    </a>  \n                </li>  \n              \n
+        \               <li class=\" last \">  \n                    <a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_all&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">
+        \ \n                        <span class=\"corner\"></span> \n                        <span>
+        \ \n                            <span>All Products</span>  \n                        </span>
+        \ \n                    </a>  \n                </li>  \n              \n
+        \ </ul>\n</div>\n\n\t\t\t\t\t\t<!-- ========================== -->\n\t\t</div>\n\t\t<div
+        class=\"navigation\">\n\t\t\t<!-- ========== NAVIGATION LINKS ========== -->\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=login&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Log
+        In</a>  \n\t\t\t\t  \n\t\t\t\t\n\t\t\t\t\t\t\t<!-- ======================================
+        -->\n\t\t</div>\n\t\t<div class=\"lang\">\n\t\t\t<!-- ========== LANGUAGES
+        ========== -->\n\t\t\t<!-- Disabled\n\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;language=en&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/languages/english/images/icon.gif\" alt=\"English\" title=\"
+        English \" width=\"39\" height=\"19\"  style=\"vertical-align:middle;\" /></a>\t\t\tend
+        disabled -->\t\n\t\t\t<!-- =============================== -->\n\t\t</div>\n\t\t<div
+        class=\"cart\">\n\t\t\t<!-- ========== SHOPPING CART ========== -->\n\t\t\t\t\t\t\t\t<a
+        class=\"st1\" href=\"http://ocbfashionjewelry.com/index.php?main_page=shopping_cart&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><span>Shopping
+        cart:</span></a><br /><a class=\"on\"><span class=\"count\">0</span> items</a>
+        \n\t\t\t\t<div class=\"none\"> Your cart is empty.</div>\t\t\t<!-- ===================================
+        -->\n\t\t</div>\n\t\t<div id=\"head-search\">\n\t\t\t<!-- ========== SEARCH
+        ========== -->\n\t\t\t\t<form name=\"quick_find_header\" action=\"http://ocbfashionjewelry.com/index.php?main_page=advanced_search_result\"
+        method=\"get\">\t\t\t\t<div>\n\t\t\t\t<input type=\"hidden\" name=\"main_page\"
+        value=\"advanced_search_result\" /><input type=\"hidden\" name=\"search_in_description\"
+        value=\"1\" /><input type=\"hidden\" name=\"zenid\" value=\"d3c0c36d1490fc165fb2392e33a3446b\"
+        />\t\t\t\t<input type=\"text\" name=\"keyword\" size=\"18\" class=\"input1\"
+        maxlength=\"100\" style=\"width: -30px\" />\t\t\t   <span class=\"input2\"><input
+        type=\"image\" src=\"includes/templates/template_default/buttons/english/search.gif\"
+        alt=\"Search\" title=\" Search \" /></span>\n\t\t\t\t\t</div>\n\t\t\t\t</form>\n\t\t\t<!--
+        ============================ -->\n\t\t</div>\n\t\t<div class=\"currencies\">\n\t\t\t<!--
+        ========== CURRENCIES ========= -->\n\t\t\t<!-- Disabled\n\t\t\t\t<form name=\"currencies\"
+        action=\"http://ocbfashionjewelry.com/index.php?main_page=index\" method=\"get\">\t\t\t\t\t<div>\n\t\t\t\t\t\t<span
+        class=\"label\">Currencies: &nbsp;</span>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t<select
+        name=\"currency\" class=\"select\" onchange=\"this.form.submit();\">\n  <option
+        value=\"CAD\" selected=\"selected\">Canadian Dollar</option>\n</select>\n<input
+        type=\"hidden\" name=\"main_page\" value=\"index\" /><input type=\"hidden\"
+        name=\"zenid\" value=\"d3c0c36d1490fc165fb2392e33a3446b\" />\t\t\t\t\t</div>\n\t\t\t\t</form>\n\t\t\tend
+        disabled -->\n\t\t\t<!-- ====================================== -->\n\t\t</div>\n\t\t<div
+        class=\"hor-cat\">\n\t\t\t<!--bof-drop down menu display-->\n\t\t\t\t<!--
+        menu area -->\n\n<div id=\"dropMenuWrapper\">\n  <div id=\"dropMenu\">\n    <ul
+        class=\"level1\">\n<!-- You can manually put whatever additional links you
+        like in using this structure\n      <li class=\"submenu\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Home</a>\n
+        \       <ul class=\"level2\">\n          <li><a href=\"yourlinkhere\">yourtexthere</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_all&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_ALL_PRODUCTS</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=specials&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_SPECIALS</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=advanced_search&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_SEARCH</a></li>\n
+        \       </ul>\n      </li>\n-->\n<li class=\"submenu\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=2&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Bracelet
+        Collection</a><ul class=\"level2\"><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=81&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Charmed Life</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=13&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Pearl's Best Friend</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=23&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Birds
+        & Bees and Flowers Please</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=11&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Bright
+        Baubles</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=8&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Hip
+        To Be Square</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=80&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Moon
+        Over Morocco</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=53&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Namaste</a></li><li>\n\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=57&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">She
+        Sells Seashells</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=10&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Sparkle</a></li><li>\n\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=26&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Tokyo
+        Rows</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=51&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Vintage
+        Vanity</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=47&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Warehouse
+        of Whimsy</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=72&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Woodland
+        Wonder</a></li></ul></li><li class=\"submenu\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=33&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        Collection</a><ul class=\"level2\"><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=82&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Charmed Life</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=90&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Pearl's Best Friend</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=77&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Birds
+        & Bees and Flowers Please</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=75&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Bright
+        Baubles</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=89&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Geometry
+        Class</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=39&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Go
+        For Baroque</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=34&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Moon
+        Over Morocco</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=85&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Namaste</a></li><li>\n\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=84&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Sparkle</a></li><li>\n\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=86&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Tokyo
+        Rows</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=48&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Vintage
+        Vanity</a></li></ul></li><li class=\"submenu\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=6&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Necklace
+        Collection</a><ul class=\"level2\"><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=71&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Charmed Life</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=43&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">A
+        Pearl's Best Friend</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=66&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Birds
+        & Bees and Flowers Please</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=21&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Bright
+        Baubles</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=73&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Chain
+        Reaction</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=88&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Geometry
+        Class</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=7&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Give
+        A Hoot</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=54&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Moon
+        Over Morocco</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=78&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Tokyo
+        Rows</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=50&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Vintage
+        Vanity</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=65&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Warehouse
+        of Whimsy</a></li><li>\n\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=62&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Woodland
+        Wonder</a></li></ul></li><li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;cPath=1&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Gift
+        Certificates</a></li><!-- You can also add links on this side of your catefories
+        menu\n      <li class=\"submenu\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_INFORMATION</a>\n
+        \       <ul class=\"level2\">\n          <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=shippinginfo&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_SHIPPING_INFO</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=privacy&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_PRIVACY_POLICY</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=conditions&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_CONDITIONS_OF_USE</a></li>\n\t\t
+        \ <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=about_us&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_ABOUT_US</a></li>\n
+        \                   <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=site_map&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_SITE_MAP</a></li>\n
+        \                   <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=gv_faq&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_GV_FAQ</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=discount_coupon&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_DISCOUNT_COUPON</a></li>\n
+        \         <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=unsubscribe&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">HEADER_TITLE_UNSUBSCRIBE</a></li>\n
+        \       </ul>\n      </li>\n-->\n    </ul>\n  </div>\n</div>\n<div class=\"clearBoth\"></div>\n\t\t\t<!--eof-drop
+        down menu display-->\n\t\t</div>\n\t</div>\n    \n\n\t   \n\n\n\n\n\t<!--
+        ========== CATEGORIES TABS ========= -->\n\t\t\t<!-- ====================================
+        -->\n                \n    \n\t\t<!-- ============================ -->\n\t\t\n\t\t<!--
+        ======Google Stuff====== -->\n<script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-17864897-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\t\t<!-- ======end of Google Stuff======  -->\n\t\t\n\t\t\n\t\t\t\t<div
+        class=\"bnnrs\">\n\t\t\t<div class=\"slider\">\n\t\t\t\t<!-- begin edit for
+        ZX Slideshow -->\n\t\t\t\t \n\t\t\t\t\t<script language=\"javascript\" type=\"text/javascript\"
+        src=\"includes/templates/template_default/jscript/jquery.nivo.slider.pack.js\"></script>\n\n<script
+        language=\"javascript\" type=\"text/javascript\">\njQuery(window).load(function()
+        {\n        jQuery('#slider').nivoSlider({\n\t\t\teffect: 'fade',\n\t\t\tanimSpeed:
+        800,\n \t        pauseTime: 5000,\n\t\t\tdirectionNav: true,\n\t\t\tdirectionNavHide:
+        false,\n \t        controlNav: true,\n\t\t\tpauseOnHover: true,\n\t\t\tcaptionOpacity:
+        0\t\t\t});\n    });\n\n</script>\n\n<div class=\"slider-wrapper theme-default\">\n
+        \   \t<div id=\"slider\" class=\"nivoSlider\" style=\"width:1024px !important;
+        height:472px !important;\">\n\t\t\t<img src=\"images/slide3.jpg\" alt=\"slide1\"
+        title=\" slide1 \" width=\"1024\" height=\"472\" />\t\t\t\n\t\t\t<img src=\"images/slide1.jpg\"
+        alt=\"slide2\" title=\" slide2 \" width=\"1024\" height=\"472\" />\n\t\t\t<img
+        src=\"images/slide4.jpg\" alt=\"slide3\" title=\" slide3 \" width=\"1024\"
+        height=\"472\" /><img src=\"images/slide5.jpg\" alt=\"slide4\" title=\" slide4
+        \" width=\"1024\" height=\"472\" /><img src=\"images/slide6.jpg\" alt=\"slide5\"
+        title=\" slide5 \" width=\"1024\" height=\"472\" /><img src=\"images/slide2.jpg\"
+        alt=\"slide6\" title=\" slide6 \" width=\"1024\" height=\"472\" />\t\t</div>\n
+        \   </div>\t\t\t\t   \n\t\t\t\t<!-- end edit for ZX Slideshow -->\n\t\t\t</div>\n\t\t\t<div
+        class=\"bot-banners\">\n\t\t\t\t<div><a href=\"http://ocbfashionjewelry.com/index.php?main_page=redirect&amp;action=banner&amp;goto=37&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/banners/Promo2.jpg\" alt=\"Our Swarovski Elements Adorned Jewelry\"
+        title=\" Our Swarovski Elements Adorned Jewelry \" width=\"328\" height=\"194\"
+        /></a></div><div><a href=\"http://ocbfashionjewelry.com/index.php?main_page=redirect&amp;action=banner&amp;goto=38&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/banners/Promo1.jpg\" alt=\"e-Gift Certificates Available Now\"
+        title=\" e-Gift Certificates Available Now \" width=\"328\" height=\"194\"
+        /></a></div><div><a href=\"http://ocbfashionjewelry.com/index.php?main_page=redirect&amp;action=banner&amp;goto=39&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/banners/Promo3.jpg\" alt=\"Everyday Savings on Handmade Fashion
+        Jewelry\" title=\" Everyday Savings on Handmade Fashion Jewelry \" width=\"328\"
+        height=\"194\" /></a></div>\t\t\t</div>\n\t\t</div>\n\t\t    \n\t\t\n\t\t<table
+        border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" id=\"contentMainWrapper\">\n\t\t\t<tr>\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<td
+        id=\"column-center\" valign=\"top\">\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+        class=\"column-center-padding\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<!--content_center-->\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<!--
+        bof breadcrumb -->\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<!-- eof breadcrumb -->\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t<!--
+        bof upload alerts -->\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<!-- eof upload alerts
+        -->\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"centerColumn\" id=\"indexDefault\">\n\n\n<!--
+        deprecated - to use uncomment this section\n<div id=\"\" class=\"content\">This
+        is the main define statement for the page for english when no template defined
+        file exists. It is located in: <strong>/includes/languages/english/index.php</strong></div>\n-->\n\n<!--
+        deprecated - to use uncomment this section\n<div id=\"\" class=\"content\">Define
+        your main Index page copy here.</div>\n-->\n\n<div id=\"indexDefaultMainContent\"></div>\n\n\n\n<!--
+        bof: featured products  -->\n<div class=\"centerBoxWrapper\" id=\"featuredProducts\">\n\n\t
+        \ <h2 class=\"centerBoxHeading\">Featured Products</h2>\n\t  \n    <div class=\"centerBoxContentsFeatured
+        centeredContent back\" style=\"width:33%;\"><div class=\"product-col\" >\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1372&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1537p.jpg\" alt=\"Earrings 1537\" title=\" Earrings
+        1537 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1372&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1537</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$23.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1372&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsFeatured centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:10px; margin-right:10px;\">\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1371&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1536p.jpg\" alt=\"Earrings 1536\" title=\" Earrings
+        1536 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1371&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1536</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$23.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1371&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsFeatured centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:19px;\">\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1369&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1534p.jpg\" alt=\"Earrings 1534\" title=\" Earrings
+        1534 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_84&amp;products_id=1369&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1534</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$23.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1369&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n<br
+        class=\"clearBoth\" />\n \n</div>\n<!-- eof: featured products  -->\n\n\n\n\n\n\n\n\n\n<!--
+        bof: whats_new -->\n<div class=\"centerBoxWrapper\" id=\"whatsNew\">\n <h2
+        class=\"centerBoxHeading\">New Products For December</h2>\n    <div class=\"centerBoxContentsNew
+        centeredContent back\" style=\"width:33%;\"><div class=\"product-col\" >\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1557&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1695p.jpg\" alt=\"Earrings 1695\" title=\" Earrings
+        1695 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1557&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1695</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$21.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1557&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:10px; margin-right:10px;\">\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1558&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1696p.jpg\" alt=\"Earrings 1696\" title=\" Earrings
+        1696 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1558&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1696</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$21.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1558&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:19px;\">\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1559&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1702p.jpg\" alt=\"Earrings 1702\" title=\" Earrings
+        1702 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1559&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1702</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1559&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n<br
+        class=\"clearBoth\" />\n\n    <div class=\"centerBoxContentsNew centeredContent
+        back\" style=\"width:33%;\"><div class=\"product-col\" >\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1560&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1703p.jpg\" alt=\"Earrings 1703\" title=\" Earrings
+        1703 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1560&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1703</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1560&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:10px; margin-right:10px;\">\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1561&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1704p.jpg\" alt=\"Earrings 1704\" title=\" Earrings
+        1704 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1561&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1704</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1561&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:19px;\">\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1562&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1705p.jpg\" alt=\"Earrings 1705\" title=\" Earrings
+        1705 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1562&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1705</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1562&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n<br
+        class=\"clearBoth\" />\n\n    <div class=\"centerBoxContentsNew centeredContent
+        back\" style=\"width:33%;\"><div class=\"product-col\" >\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1563&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1706p.jpg\" alt=\"Earrings 1706\" title=\" Earrings
+        1706 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1563&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1706</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1563&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:10px; margin-right:10px;\">\n\t\t\t\t<div
+        class=\"img\">\n\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1564&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1707p.jpg\" alt=\"Earrings 1707\" title=\" Earrings
+        1707 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1564&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1707</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1564&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n
+        \   <div class=\"centerBoxContentsNew centeredContent back\" style=\"width:33%;\"><div
+        class=\"product-col\" style=\"margin-left:19px;\">\n\t\t\t\t<div class=\"img\">\n\t\t\t\t\t<a
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1565&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1699p.jpg\" alt=\"Earrings 1699\" title=\" Earrings
+        1699 \" width=\"200\" height=\"266\" /></a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"prod-info\">\n\t\t\t\t\t<a class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_90&amp;products_id=1565&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1699</a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t<strong>$20.00</strong>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"button\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1565&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div></div>\n<br
+        class=\"clearBoth\" />\n \n</div>\n<!-- eof: whats_new -->\n\n\n\n</div>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div
+        class=\"clear\"></div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<!--eof content_center-->\n\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t<td
+        id=\"column_right\" style=\"width:241px\">\n\t\t\t\n\t\t\t\t\t\t<div style=\"width:241px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<!--//
+        bof: specials //-->\n        <div class=\"box \" id=\"specials\" style=\"width:241px;\">\n\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"box-head\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=specials&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Specials</a>\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"box-body\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"sideBoxContent centeredContent\"><div
+        class=\"img\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_82&amp;products_id=1314&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1479p.jpg\" alt=\"Earrings 1479\" title=\" Earrings
+        1479 \" width=\"200\" height=\"266\" /></a><br /></div><div class=\"desc\"><a
+        class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_82&amp;products_id=1314&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1479</a><div class=\"wrapper\"><div class=\"price\"><span class=\"normalprice\">$14.00
+        </span>&nbsp;<span class=\"productSpecialPrice\">$11.86</span><span class=\"productPriceDiscount\"><br
+        />Save:&nbsp;15% off</span></div><a class=\"button\" href=\"http://ocbfashionjewelry.com/index.php?main_page=specials&amp;action=buy_now&amp;products_id=1314&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div></div></div>\t\t\t\t\t\t\t\t\t\t\t</div>
+        \n\t\t\t\n\n            \n        </div>\n<!--// eof: specials //-->\n\n<!--//
+        bof: whatsnew //-->\n        <div class=\"box \" id=\"whatsnew\" style=\"width:241px;\">\n\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"box-head\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">New
+        Products</a>\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"box-body\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"sideBoxContent centeredContent\"><div
+        class=\"img\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1554&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1692p.jpg\" alt=\"Earrings 1692\" title=\" Earrings
+        1692 \" width=\"200\" height=\"266\" /></a><br /></div><div class=\"sb-info\"><a
+        class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1554&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1692</a><div class=\"wrapper\"><div class=\"price\">$21.00</div><a class=\"button\"
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1554&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div></div></div><div
+        class=\"sideBoxContent centeredContent\"><div class=\"img\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1555&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1693p.jpg\" alt=\"Earrings 1693\" title=\" Earrings
+        1693 \" width=\"200\" height=\"266\" /></a><br /></div><div class=\"sb-info\"><a
+        class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1555&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1693</a><div class=\"wrapper\"><div class=\"price\">$21.00</div><a class=\"button\"
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1555&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div></div></div><div
+        class=\"sideBoxContent centeredContent\"><div class=\"img\"><a href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1556&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"images/products/1694p.jpg\" alt=\"Earrings 1694\" title=\" Earrings
+        1694 \" width=\"200\" height=\"266\" /></a><br /></div><div class=\"sb-info\"><a
+        class=\"name\" href=\"http://ocbfashionjewelry.com/index.php?main_page=product_info&amp;cPath=33_89&amp;products_id=1556&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Earrings
+        1694</a><div class=\"wrapper\"><div class=\"price\">$21.00</div><a class=\"button\"
+        href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;action=buy_now&amp;products_id=1556&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"><img
+        src=\"includes/templates/template_default/buttons/english/button_add_to_cart.gif\"
+        alt=\"Add to Cart\" title=\" Add to Cart \" width=\"90\" height=\"36\" /></a></div></div></div>\t\t\t\t\t\t\t\t\t\t\t</div>
+        \n\t\t\t\n\n            \n        </div>\n<!--// eof: whatsnew //-->\n\n\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t\t</div>\n\t</div>\n</div>\n\t<!--
+        ========== FOOTER ========== -->\n\t\n\n<div id=\"footer\">\n\t<div class=\"extra\">\n\t\t<div
+        class=\"main-width\">\n\t\t\t<div class=\"wrapper\">\n\t\t\t\t<div class=\"footer-menu\">\n\t\t\t\t\t<div
+        id=\"navSupp\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n<div class=\"ezpagesFooterCol
+        col3\" style=\"width: 25%\">\n<ul>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=specials&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Specials</a></li>\n
+        \ <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_new&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">New
+        Products</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=products_all&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">All
+        Products</a></li>\n</ul>\n</div>\n<div class=\"ezpagesFooterCol col4\" style=\"width:
+        25%\">\n<ul>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=page&amp;id=3&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Everyday
+        Discounts</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=gv_faq&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Gift
+        Certificates FAQ</a></li>\n</ul>\n</div>\n<div class=\"ezpagesFooterCol col5\"
+        style=\"width: 25%\">\n<ul>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=page&amp;id=11&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Conditions
+        of Use</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=page&amp;id=12&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Shipping
+        and Returns</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=page&amp;id=2&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">How
+        To Measure Your Wrist</a></li>\n</ul>\n</div>\n<div class=\"ezpagesFooterCol
+        col6\" style=\"width: 25%\">\n<ul>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=page&amp;id=10&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">About
+        Us</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=site_map&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Site
+        Map</a></li>\n  <li><a href=\"http://ocbfashionjewelry.com/index.php?main_page=contact_us&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Contact
+        Us</a></li>\n</ul>\n</div><br class=\"clearBoth\" />\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"copyright\">\n\t\t\t\t\t<!-- ========== COPYRIGHT ========== -->\n\t\t\t\t\t\tCopyright
+        &copy; 2013 <a href=\"http://ocbfashionjewelry.com/index.php?main_page=index&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\"
+        target=\"_blank\">Orange Crush Beads</a>. -  <a href=\"http://ocbfashionjewelry.com/index.php?main_page=privacy&amp;zenid=d3c0c36d1490fc165fb2392e33a3446b\">Privacy
+        Notice</a>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<!-- ===============================
+        -->\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<!--<div class=\"cards\">\n\t\t\t\t\t<img
+        src=\"includes/templates/template_default/images/paypal.gif\" alt=\"\" />\t\t\t\t</div>-->\n\t\t\t\t<div
+        class=\"back_to_top\">\n\t\t\t\t\t<a href=\"#\"><span>&uarr;</span> TOP</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n\n\n\n\n\n<!--
+        BOF- BANNER #5 display -->\n<!-- EOF- BANNER #5 display -->\n\n\t<!-- ============================
+        -->\n\n\t<!--bof- parse time display -->\n\t\t<!--eof- parse time display
+        -->\n\n\t<!-- BOF- BANNER #6 display -->\n\t\t<!-- EOF- BANNER #6 display
+        -->\n\n\t<!-- ========== IMAGE BORDER BOTTOM ========== -->\n\n\n\n<!-- =========================================
+        -->\n\n\n\n</body></html>\n"
+    http_version: '1.1'
+  recorded_at: Sun, 29 Dec 2013 14:21:40 GMT
+recorded_with: VCR 2.8.0

@@ -3,7 +3,7 @@ module Sniffles
     def parse(html)
       @doc = Nokogiri::HTML(html)
     end
-    
+
     def text_at(pattern)
       if (nodes = @doc.search(pattern)).any?
         nodes.text
@@ -11,7 +11,7 @@ module Sniffles
         false
       end
     end
-    
+
     def text_match?(pattern, text)
       (@doc.search(pattern).text == text)
     end

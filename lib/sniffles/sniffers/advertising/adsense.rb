@@ -12,20 +12,12 @@ module Sniffles
       end
 
       def process_document
-        if @output[:found] = found?
-          parse_publisher_id
-        end
+        @output[:found] = found?
       end
 
       private
       def found?
         match?(/googletag\.pubads\(\)/)
-      end
-
-      def parse_publisher_id
-        if pub_id = capture(/publisher\:\s\"([a-z0-9\-]{10,})\"/)
-          @output[:publisher_id] = pub_id
-        end
       end
     end
   end

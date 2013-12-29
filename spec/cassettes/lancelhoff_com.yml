@@ -16,11 +16,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 29 Dec 2013 13:04:15 GMT
+      - Sun, 29 Dec 2013 14:21:13 GMT
       Server:
       - Apache
       Cache-Control:
-      - max-age=9501
+      - max-age=4884
       Expires:
       - Sun, 29 Dec 2013 15:42:37 GMT
       Content-Encoding:
@@ -633,5 +633,5 @@ http_interactions:
         ZHk+DQo8L2h0bWw+PCEtLSBoeXBlciBjYWNoZTogODg1NWRhNWUyYmY1MTVk
         YTliNGNjMzUwYjA1OTllNjggMTMtMTItMjggMDM6NDI6MzcgLS0+
     http_version: '1.1'
-  recorded_at: Sun, 29 Dec 2013 13:04:16 GMT
+  recorded_at: Sun, 29 Dec 2013 14:21:13 GMT
 recorded_with: VCR 2.8.0

@@ -18,7 +18,7 @@ http_interactions:
       Server:
       - nginx/1.2.1
       Date:
-      - Sun, 29 Dec 2013 12:30:47 GMT
+      - Sun, 29 Dec 2013 14:21:20 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -1347,5 +1347,5 @@ http_interactions:
         bnQsInNjcmlwdCIpKTsNCiAgPC9zY3JpcHQtLT4NCg0KPC9ib2R5Pg0KPC9o
         dG1sPg0K
     http_version: '1.1'
-  recorded_at: Sun, 29 Dec 2013 12:30:47 GMT
+  recorded_at: Sun, 29 Dec 2013 14:21:20 GMT
 recorded_with: VCR 2.8.0

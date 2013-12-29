@@ -7,7 +7,6 @@ describe Sniffles::Sniffers::Adsense do
       let(:adsense)  { described_class.new(page_body("http://digital-photography-school.com/digital-photography-tips-for-beginners")) }
 
       it { adsense.output[:found].should eq true }
-      it { adsense.output[:publisher_id].should =~ /[a-z0-9\-]{10,}/ }
     end
 
     context "not found" do
