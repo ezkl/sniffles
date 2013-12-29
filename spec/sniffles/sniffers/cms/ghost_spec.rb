@@ -1,5 +1,5 @@
-require File.expand_path(File.dirname(__FILE__) + '/../../../spec_helper')
-require File.expand_path(File.dirname(__FILE__) + '/../../../../lib/sniffles/sniffers/cms/ghost')
+require 'spec_helper'
+require 'sniffles/sniffers/cms/ghost'
 
 describe Sniffles::Sniffers::Ghost do
   describe "#output" do
