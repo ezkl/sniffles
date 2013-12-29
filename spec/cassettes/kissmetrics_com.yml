@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.kissmetrics.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/32.0.1700.68 Safari/537.36
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Sun, 29 Dec 2013 14:21:19 GMT
+      Etag:
+      - '"44365c7537d6d5386220e9b846c36c45"'
+      Server:
+      - nginx/1.0.15
+      Set-Cookie:
+      - abid=8297768; domain=.kissmetrics.com; path=/; expires=Sun, 28 Dec 2014 14:21:19
+        -0000
+      - _core_marketing_session=ZGNhZEErMHo1cjIvb3RNSzVjK1dkYVBmS2xjOGU1aXdTdEpEL0g2WlhhUm9LcEdCRk8zQTVVendDNHpHSEtweE85MDhka1E4b3JaeXRmbytsWFE1aWUrVXpSeUZ4aWxPUUdRRm5kamIvOTVpcEdtbnEwb0YwaWdFT25wNm1lVDhxV09OL2RXN1FUekticU5PaitzOWl2aWw4REZUdXd6VU0xRytnT2d5bGlUdDlzNUpzdlRLcVBZY0d6V0dUaFR0LS1HSnh1djViZkZxNlVVZFo4VWd6Nk1RPT0%3D--632decd602f7b0524093c2c0fec80cd084e859fe;
+        path=/; HttpOnly
+      Status:
+      - 200 OK
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - a37ab1f4-aabc-45eb-b2d1-834f3a72728d
+      X-Runtime:
+      - '0.011701'
+      X-Ua-Compatible:
+      - chrome=1
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '9103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html data-placeholder-focus=\"false\">\n<head>\n
+        \ <title>KISSmetrics Customer Intelligence &amp; Web Analytics</title>\n<meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0\">\n
+        \ <meta name=\"description\" content=\"Giving you the knowledge you need to
+        make better decisions. KISSmetrics is a revolutionary person-based analytics
+        platform for your whole team. Get product, sales, marketing, customer support
+        working together to improve the metrics that matter.\">\n\n  <link href=\"/assets/application-ef0f301d69ba01d0b398e378ee97d417.css\"
+        media=\"all\" rel=\"stylesheet\" />\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"YEuyCqmyx00CJTXifMA0pe/9xXjwIUiQnm1AxeJX5mk=\"
+        name=\"csrf-token\" />\n\n  <!-- Favicons -->\n<link rel=\"shortcut icon\"
+        href=\"/images/icons/favicon.ico\" />\n\n<!-- Apple Touch Icons -->\n<link
+        rel=\"apple-touch-icon\" href=\"/images/icons/apple-touch-icon-precomposed.png\"/>\n<link
+        rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/images/icons/apple-touch-icon-72x72-precomposed.png\"
+        />\n<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/images/icons/apple-touch-icon-114x114-precomposed.png\"
+        />\n<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/images/icons/apple-touch-icon-144x144-precomposed.png\"
+        />\n\n<!-- MS Homescreen Icons -->\n<meta name=\"msapplication-TileColor\"
+        content=\"#2b2b2b\">\n<meta name=\"msapplication-TileImage\" content=\"/images/icons/ms-homescreen-icon-144.png\">\n\n
+        \   <meta property=\"commit\" content=\"3dd81819c7dd1c45fc57a86b3b544578b8191cd5\">\n
+        \ <!-- KISSmetrics tracking -->\n  <script type=\"text/javascript\">\n  var
+        _kmq = _kmq || [];\n  var _kmk = _kmk || 'e4756f9bee2a2cfc9c8a4aed3197e68a590c2dc3';\n
+        \ function _kms(u){\n    setTimeout(function(){\n      var d = document, f
+        = d.getElementsByTagName('script')[0],\n      s = d.createElement('script');\n
+        \     s.type = 'text/javascript'; s.async = true; s.src = u;\n      f.parentNode.insertBefore(s,
+        f);\n    }, 1);\n  }\n  _kms('//i.kissmetrics.com/i.js');\n  _kms('//doug1izaerwt3.cloudfront.net/'
+        + _kmk + '.1.js');\n  </script>\n\n\n  <!-- Typekit -->\n  <script type=\"text/javascript\"
+        src=\"//use.typekit.net/uyk3svn.js\"></script>\n  <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n
+        \ <!-- End Typekit -->\n\n</head>\n\n<body>\n  <div id=\"main home-no-sidebar\">\n
+        \   <section class=\"page-lead-in\" id=\"home-page-lead-in\">\n      <header
+        id=\"site-header\" class=\"animated fadeInDown\">\n        <a class=\"kissmetrics-logo-light\"
+        href=\"/\" title=\"Go to the home page\">KISSmetrics Customer Web Analytics</a>\n
+        \       <nav>\n          <ul class=\"primary-site-nav\">\n            <li><a
+        href=\"/features\">Features</a></li>\n            <li><a href=\"/customers\">Customers</a></li>\n
+        \           <li><a href=\"/pricing\">Pricing</a></li>\n            <li><a
+        class=\"help\" href=\"#\">Help</a></li>\n            <!-- <li><a href=\"/contact\">Help</a></li>
+        -->\n            <li><a class=\"is_active\" href=\"/signin\">Sign in</a></li>\n
+        \         </ul>\n        </nav>\n        <nav class=\"help-nav\">\n          <ul>\n
+        \             <li><a href=\"/contact\">Contact Us</a></li>\n              <li><a
+        href=\"http://blog.kissmetrics.com\" target=\"_blank\">Blog</a></li>\n              <li><a
+        href=\"http://support.kissmetrics.com\" target=\"_blank\">Documentation</a></li>\n
+        \             <li><a href=\"http://status.kissmetrics.com\" target=\"_blank\">Site
+        Status</a></li>\n              <li class=\"primary-site-nav-sign-in\"><a class=\"primary-site-nav-sign-in-link\"
+        href=\"/signin\" title=\"Sign into KISSmetrics\">Sign In</a></li>\n              <li><a
+        href=\"mailto:sales@kissmetrics.com\" title=\"Speak with our sales team\">Have
+        a Question?</a></li>\n          </ul>\n        </nav>\n      </header>\n\n
+        \     <div class=\"content home-no-sidebar-content\">\n        <div class=\"grid
+        grid-pad-double\">\n          <div class=\"col-d7 col-pl12 animated fadeIn
+        home-no-sidebar-copy\">\n            <h1 class=\"heading-1\">Google Analytics
+        tells you what happened, KISSmetrics tells you who did it.</h1>\n            <p
+        class=\"heading-3\">KISSmetrics fills this gap by showing you every action
+        each individual did. Finally, you'll know who your most valuable customers
+        are and how to get more of them.</p>\n          </div>\n          <div class=\"col-d4
+        col-tl5 col-pl12 inline-signup-form animated fadeIn\">\n            <fieldset
+        id=\"sign-up-inline-1\">\n              <h2>Start your FREE 14-day trial today</h2>\n\n
+        \             <a href=\"/auth/google\" class=\"button button-google-auth-hero-alt
+        button-with-icon\">\n                <span class=\"button-icon\"><i class=\"icon-google\"></i></span>\n
+        \               <span class=\"button-text\">Sign up with Google</span>\n              </a>\n\n
+        \             <span class=\"or-rule\">or</span>\n\n              <a href=\"/signup\"
+        class=\"button button-sign-up-email\">\n                Sign up with your
+        email\n              </a>\n\n              <p class=\"signup-note\">\n                No
+        credit card required, cancel anytime.\n              </p>\n            </fieldset>\n
+        \         </div>\n        </div>\n      </div>\n    </section><!-- .page-lead-in
+        -->\n\n    <div id=\"site-content\">\n      <section class=\"your-customers\">\n
+        \ <h3 class=\"no-margin\">Ready to learn more about your customers?</h3>\n
+        \ <p>Sign up for your <em class=\"highlight\">14-day free trial</em> to discover
+        who your customers are and what they're doing.</p>\n  <p><a class=\"button-primary
+        button-large signup-cta\" href=\"/signup\">Get Your Free Trial</a></p>\n</section>\n
+        \   </div><!-- #site-content -->\n    <footer id=\"site-footer\">\n  <nav>\n
+        \   <ul class=\"site-footer-nav\">\n      <li><a class=\"footer-careers\"
+        href=\"/careers\">Careers</a></li>\n      <li><a href=\"/brand\">Brand</a></li>\n
+        \     <li><a href=\"http://blog.kissmetrics.com\" target=\"_blank\">Blog</a></li>\n
+        \     <li><a href=\"http://support.kissmetrics.com\" target=\"_blank\">Documentation</a></li>\n
+        \     <li><a href=\"/contact\">Contact Us</a></li>\n      <li><a href=\"/signin\">Sign
+        In</a></li>\n      <!-- <li><a href=\"http://partners.kissmetrics.com\">Partners</a></li>
+        -->\n    </ul>\n  </nav>\n  <nav>\n    <ul class=\"site-footer-nav-copyright\">\n
+        \     <li class=\"copyright\">&copy; 2013 KISSmetrics</li>\n      <li class=\"interpunct\">&middot;</li>\n
+        \     <li>All rights reserved</li>\n      <li class=\"interpunct\">&middot;</li>\n
+        \     <li class=\"privacy-policy\"><a href=\"/privacy\">Privacy Policy</a></li>\n
+        \     <li class=\"interpunct\">&middot;</li>\n      <li class=\"terms-of-use\"><a
+        href=\"/terms\">Terms of Use</a></li>\n    </ul>\n  </nav>\n</footer><!--
+        #site-footer -->\n\n  </div><!-- #main -->\n  <!-- Pardot -->\n<script type=\"text/javascript\">\npiAId
+        = '27622';\npiCId = '2160';\n\n(function() {\n  function async_load(){\n    var
+        s = document.createElement('script'); s.type = 'text/javascript';\n    s.src
+        = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') +
+        '.pardot.com/pd.js';\n    var c = document.getElementsByTagName('script')[0];
+        c.parentNode.insertBefore(s, c);\n  }\n  if(window.attachEvent) { window.attachEvent('onload',
+        async_load); }\n  else { window.addEventListener('load', async_load, false);
+        }\n})();\n</script>\n<!-- Qualaroo for kissmetrics.com -->\n<script type=\"text/javascript\">var
+        _kiq = _kiq || [];</script>\n<script type=\"text/javascript\" src=\"//s3.amazonaws.com/j.kissinsights.com/u/3/4b8778f587d05403532596fb20aec271c5ac37bd.js\"
+        async=\"true\"></script>\n<!-- Start BounceX tag -->\n<script>\n  (function(d)
+        {\n    var e = d.createElement('script');\n    e.src = d.location.protocol
+        + '//bounceexchange.com/bounce/i.js?client_id=443';\n    e.async = true;\n
+        \   d.getElementsByTagName(\"head\")[0].appendChild(e);\n   }(document));\n</script>\n<!--
+        End BounceX tag -->\n<!-- Optimizely for kissmetrics.com -->\n<script src=\"//cdn.optimizely.com/js/418001.js\"></script>\n<script
+        type=\"text/javascript\">\nadroll_adv_id = \"KPECZHLAHVGMRNPMS5DVLA\";\nadroll_pix_id
+        = \"T3C4HTRAQVFFJFFSKAPH3G\";\n(function () {\nvar oldonload = window.onload;\nwindow.onload
+        = function(){\n   __adroll_loaded=true;\n   var scr = document.createElement(\"script\");\n
+        \  var host = ((\"https:\" == document.location.protocol) ? \"https://s.adroll.com\"
+        : \"http://a.adroll.com\");\n   scr.setAttribute('async', 'true');\n   scr.type
+        = \"text/javascript\";\n   scr.src = host + \"/j/roundtrip.js\";\n   ((document.getElementsByTagName('head')
+        || [null])[0] ||\n    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);\n
+        \  if(oldonload){oldonload()}};\n}());\n</script>\n\n<!-- Google Analytics
+        - It's free and awesome, so we use it. You should too. -->\n<script type=\"text/javascript\">\n
+        \ var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-1160402-19']);\n
+        \ _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n</script>\n\n  \n  <script src=\"/assets/application-8aff5ce7b88526f162f94c6d7cefca6b.js\"></script>\n
+        \ <script>\n  _kmq.push(['record', 'Viewed OAuth Homepage', {'OAuth Test 12-24-2013'
+        : 'Variant-OAuth'}]);\n  </script>\n</div>\n</body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sun, 29 Dec 2013 14:21:19 GMT
+recorded_with: VCR 2.8.0
