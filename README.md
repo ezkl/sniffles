@@ -111,6 +111,7 @@ Here are a list of currently implemented sniffers, grouped by category. You can 
 ## Contributors
 For a complete list see [github](https://github.com/ezkl/sniffles/contributors).
 
-### Special Thanks 
+### Special Thanks
 * [Jake Austwick](https://github.com/JakeAustwick)
 * [dchuk](https://github.com/dchuk)
+* [David Collom](https://github.com/davidcollom)
