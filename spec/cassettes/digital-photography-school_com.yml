@@ -1,0 +1,653 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://digital-photography-school.com/digital-photography-tips-for-beginners
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Sun, 29 Dec 2013 07:55:14 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2d79eeb54130bf3e0e62eec1bbb0d2e61388303714603; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.digital-photography-school.com; HttpOnly
+      Link:
+      - "<http://digital-photography-school.com/?p=986>; rel=shortlink"
+      Last-Modified:
+      - Sun, 29 Dec 2013 07:54:43 GMT
+      Vary:
+      - Accept-Encoding
+      X-Pingback:
+      - http://digital-photography-school.com/xmlrpc.php
+      X-Real-Ip:
+      - 173.245.55.144
+      Age:
+      - '31'
+      X-Cache:
+      - HIT
+      Cf-Ray:
+      - e44ed4840c40663
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
+        lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\n<html>\n\n<head>\n    <meta name = \"viewport\" content
+        = \"initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width =
+        device-width\">\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\">\n  \n  <link rel=\"shortcut icon\" type=\"image/x-icon\"
+        href=\"/favicon.ico?7\">\n\n  <script src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js\"></script>\n\n
+        \ <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/css/normalize.min.css\">\n
+        \ <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/style.css?2.51\">\n
+        \ <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/css/media.css?2.51\">\n
+        \ <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/css/retina.css?2.51\">\n
+        \ <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/css/popup.css\">\n
+        \   <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/css/elastislide.css\">\n
+        \     \n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Digital
+        Photography School RSS Feed\" href=\"http://feedproxy.google.com/DigitalPhotographySchool\"
+        />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Digital
+        Photography School Tips &amp; Tutorials Feed\" href=\"http://feedproxy.google.com/DigitalPhotographySchool/Tips\"
+        />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Digital
+        Photography School Cameras &amp; Equipment Feed\" href=\"http://feedproxy.google.com/DigitalPhotographySchool/Cameras\"
+        />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Digital
+        Photography School Post Production Feed\" href=\"http://feedproxy.google.com/DigitalPhotographySchool/PostProduction\"
+        />\n\n  \n  <link href='http://fonts.googleapis.com/css?family=Sintony:400,700'
+        rel='stylesheet' type='text/css'>\n  <link href='http://fonts.googleapis.com/css?family=Signika:300'
+        rel='stylesheet' type='text/css'>\n\n    \n<!-- This site is optimized with
+        the Yoast WordPress SEO plugin v1.4.18 - http://yoast.com/wordpress/seo/ -->\n<title>Digital
+        Photography Tips for Beginners - Digital Photography School</title>\n<link
+        rel=\"canonical\" href=\"http://digital-photography-school.com/digital-photography-tips-for-beginners\"
+        />\n<link rel=\"author\" href=\"https://plus.google.com/+darrenrowse/\"/>\n<link
+        rel=\"publisher\" href=\"https://plus.google.com/u/0/b/117555557792301592213/117555557792301592213\"/>\n<meta
+        property=\"og:locale\" content=\"en_US\"/>\n<meta property=\"og:type\" content=\"article\"/>\n<meta
+        property=\"og:title\" content=\"Digital Photography Tips for Beginners - Digital
+        Photography School\"/>\n<meta property=\"og:description\" content=\"A large
+        proportion of the readers of Digital Photography School classify themselves
+        as beginners &#8211; so we thought it might be helpful to have a page set
+        up that collates some of our Digital Photography Tips for Beginners. Before
+        you check out the links below &#8211; do check out our range of eBooks and
+        workbooks [&hellip;]\"/>\n<meta property=\"og:url\" content=\"http://digital-photography-school.com/digital-photography-tips-for-beginners\"/>\n<meta
+        property=\"og:site_name\" content=\"Digital Photography School\"/>\n<meta
+        property=\"article:author\" content=\"https://www.facebook.com/digitalps\"/>\n<meta
+        property=\"og:image\" content=\"http://digital-photography-school.com/wp-content/uploads/2007/11/beginners.jpg\"/>\n<meta
+        property=\"og:image\" content=\"http://digital-photography-school.com/wp-content/uploads/2007/12/images200712041519.jpg\"/>\n<meta
+        property=\"og:image\" content=\"http://digital-photography-school.com/wp-content/uploads/2007/11/imagespractical-photography-tips-2.jpg\"/>\n<meta
+        property=\"og:image\" content=\"http://www.problogger.net/wp-content/uploads/2009/11/portrait-photograph-tips.jpg\"/>\n<meta
+        name=\"twitter:card\" content=\"summary\"/>\n<meta name=\"twitter:site\" content=\"@digitalps\"/>\n<meta
+        name=\"twitter:domain\" content=\"Digital Photography School\"/>\n<meta name=\"twitter:creator\"
+        content=\"@digitalps\"/>\n<!-- / Yoast WordPress SEO plugin. -->\n\n<link
+        rel=\"alternate\" type=\"application/rss+xml\" title=\"Digital Photography
+        School &raquo; Digital Photography Tips for Beginners Comments Feed\" href=\"http://digital-photography-school.com/digital-photography-tips-for-beginners/feed\"
+        />\n<link rel='stylesheet' id='authorsure-css'  href='http://digital-photography-school.com/wp-content/plugins/authorsure/authorsure.css?ver=1.7'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wordpress-popular-posts-css'
+        \ href='http://digital-photography-school.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=2.3.7'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='prefix-style-css'
+        \ href='http://digital-photography-school.com/wp-content/plugins/Upsellme/colorbox.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='rating_style-css'
+        \ href='http://digital-photography-school.com/wp-content/plugins/all-in-one-schemaorg-rich-snippets/css/jquery.rating.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wpcf-css'  href='http://digital-photography-school.com/wp-content/plugins/wp-contact-form/wpcf.css?ver=20110218'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wp-polls-css'  href='http://digital-photography-school.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.63'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wp-pagenavi-css'
+        \ href='http://digital-photography-school.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70'
+        type='text/css' media='all' />\n<script type='text/javascript' src='http://digital-photography-school.com/wp-content/plugins/upsell-floating-bar/js/slide-down.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://digital-photography-school.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>\n<script
+        type='text/javascript' src='http://digital-photography-school.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>\n<script
+        type='text/javascript' src='http://digital-photography-school.com/wp-content/plugins/Upsellme/jquery.colorbox.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://digital-photography-school.com/wp-content/plugins/all-in-one-schemaorg-rich-snippets/js/jquery.rating.min.js?ver=3.7.1'></script>\n<link
+        rel=\"EditURI\" type=\"application/rsd+xml\" title=\"RSD\" href=\"http://digital-photography-school.com/xmlrpc.php?rsd\"
+        />\n<link rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"http://digital-photography-school.com/wp-includes/wlwmanifest.xml\"
+        /> \n<meta name=\"generator\" content=\"WordPress 3.7.1\" />\n<link rel='shortlink'
+        href='http://digital-photography-school.com/?p=986' />\n<script type=\"text/javascript\">var
+        ajaxurl = \"http://digital-photography-school.com/wp-admin/admin-ajax.php\"</script><style
+        type=\"text/css\">\n.wp-polls .pollbar {\n\tmargin: 1px;\n\tfont-size: 8px;\n\tline-height:
+        10px;\n\theight: 10px;\n\tbackground-image: url('http://digital-photography-school.com/wp-content/plugins/wp-polls/images/default_gradient/pollbg.gif');\n\tborder:
+        1px solid #af9247;\n}\n</style>\n<!-- All in one Favicon 4.3 --><link rel=\"shortcut
+        icon\" href=\"http://digital-photography-school.com/favicon.ico?10\" />\n<link
+        rel=\"apple-touch-icon\" href=\"http://digital-photography-school.com/wp-content/uploads/2013/10/apple-touch-icon.png\"
+        />\n\t<!-- Include google_services.js -->\n<script type='text/javascript'>\nvar
+        googletag = googletag || {};\ngoogletag.cmd = googletag.cmd || [];\n(function()
+        {\nvar gads = document.createElement('script');\ngads.async = true;\ngads.type
+        = 'text/javascript';\nvar useSSL = 'https:' == document.location.protocol;\ngads.src
+        = (useSSL ? 'https:' : 'http:') +\n'//www.googletagservices.com/tag/js/gpt.js';\nvar
+        node = document.getElementsByTagName('script')[0];\nnode.parentNode.insertBefore(gads,
+        node);\n})();\n</script>\n<script type='text/javascript'>\nvar desktop_slots
+        = new Array();\nvar tablet_slots  = new Array();\nvar mobile_slots  = new
+        Array();\n\ngoogletag.cmd.push(function() {\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-top-banner_(728x90)',\n           [728,90],\n
+        \          \"acm-ad-tag-_dPSv4_tips-top-banner_(728x90)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-header-strip_(728x40)',\n           [728,40],\n
+        \          \"acm-ad-tag-_dPSv4_tips-header-strip_(728x40)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-header-pushdown_(970x90)',\n           [970,90],\n
+        \          \"acm-ad-tag-_dPSv4_tips-header-pushdown_(970x90)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-top-rhs_(300x250)',\n           [300,250],\n
+        \          \"acm-ad-tag-_dPSv4_tips-top-rhs_(300x250)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-bottom-mid_(300x250)',\n           [300,250],\n
+        \          \"acm-ad-tag-_dPSv4_tips-bottom-mid_(300x250)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_gallery-rhs_(300x250)',\n           [300,250],\n
+        \          \"acm-ad-tag-_dPSv4_gallery-rhs_(300x250)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-bottom-tower_(160x600)',\n           [[160,600],[300,600]],\n
+        \          \"acm-ad-tag-_dPSv4_tips-bottom-tower_(160x600)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_tips-top-button_(88x31)',\n           [88,31],\n
+        \          \"acm-ad-tag-_dPSv4_tips-top-button_(88x31)\"\n           ).addService(googletag.pubads()));\nmobile_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_mob-oth-lores_(300x50)',\n           [300,50],\n
+        \          \"acm-ad-tag-_dPSv4_mob-oth-lores_(300x50)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_cameras-rhs-bookad1_(300x110)',\n           [300,110],\n
+        \          \"acm-ad-tag-_dPSv4_cameras-rhs-bookad1_(300x110)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_post-rhs-bookad2_(300x110)',\n           [300,110],\n
+        \          \"acm-ad-tag-_dPSv4_post-rhs-bookad2_(300x110)\"\n           ).addService(googletag.pubads()));\ndesktop_slots.push(googletag.defineSlot(\n
+        \          '/1005424/_dPSv4_cameras-rhs-bookad3_(300x110)',\n           [300,110],\n
+        \          \"acm-ad-tag-_dPSv4_cameras-rhs-bookad3_(300x110)\"\n           ).addService(googletag.pubads()));\ngoogletag.pubads().disableInitialLoad();\ngoogletag.pubads().collapseEmptyDivs(true,true);\ngoogletag.enableServices();\n});\n</script>\n
+        \              <script type=\"text/javascript\">var switchTo5x=true;</script>\n<script
+        type=\"text/javascript\" src=\"http://w.sharethis.com/button/buttons.js\"></script>\n<script
+        type=\"text/javascript\">stLight.options({publisher: \"ur-cf9fc234-ecd8-3404-611a-e1339ede17da\",
+        doNotHash: true, doNotCopy: true, hashAddressBar: false, onhover: false});</script>\n
+        \           <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/xmas/css/normalize.min.css?1.0\">\n
+        \     <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400'
+        rel='stylesheet' type='text/css'>\n      <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/xmas/css/computed-style.css?1.1\">\n
+        \     <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/xmas/css/colorbox.css?1.0\">\n
+        \     <link rel=\"stylesheet\" href=\"http://digital-photography-school.com/xmas/css/style.css?1.4\">\n\n
+        \     <script src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/js/main.js?1.12\"></script>\n\n
+        \     <script src=\"https://www.e-junkie.com/ecom/box.js\"></script>\n      <script
+        src=\"http://digital-photography-school.com/xmas/js/vendor/jquery.colorbox-min.js?1.0\"></script>\n
+        \     <script src=\"http://digital-photography-school.com/xmas/js/main.js?1.0\"></script>\n
+        \     <script src=\"http://digital-photography-school.com/xmas/js/vendor/jquery.countdown.js?1.0\"></script>\n\n</head>\n\n<body>\n
+        \     <div class=\"fullscreen\"></div>\n    <div class=\"xmas-slidedown\"
+        style=\"top: 0;\">\n      <h1><a href=\"#\"><span class=\"star\"></span>12
+        amazing photographic deals over 12 days<span class=\"star\"></span></a> <span
+        class=\"todaysDeals\">Click to see today's deals <span class=\"openArrow\"></span></span></h1>\n
+        \   </div>\n    <script>\n      function slideDown(obj, ev) {\n        obj.unbind(ev);\n
+        \       jQuery('.xmas-slidedown').slideToggle();\n        jQuery('.fullscreen').load(\"http://digital-photography-school.com/xmas/?ajax=true&v=10
+        #xmas-app\", function() {\n          jQuery('.fullscreen').find('.call-to-action').remove();\n
+        \         var timer = jQuery('.fullscreen .top-timer').clone();\n          jQuery('.fullscreen').find('.deals').remove();\n
+        \         jQuery('.fullscreen').find('.app-footer').remove();\n          jQuery('.fullscreen').find('.social-shares').remove();\n
+        \         jQuery('.fullscreen').find('.social-shares-top').remove();\n          jQuery(timer).insertAfter('.deal');\n
+        \         jQuery('<a href=\"#\" class=\"xmas-close\">Close<span class=\"closeButton\"></span></a>').appendTo('.fullscreen
+        .decorator');\n\n          jQuery('.xmas-close').click( function(event) {\n
+        \           event.preventDefault();\n            jQuery('.fullscreen').animate(
+        {\n              top: '-100%',\n              height: '0%'\n            },
+        1500, function() {\n              jQuery('.fullscreen').html('');\n              jQuery('.ad-background').show();\n
+        \             jQuery('.xmas-slidedown').slideToggle();\n              obj.click(
+        function() {\n                slideDown(obj);\n              });\n            });\n
+        \         });\n\n          jQuery(document).bind('cbox_open', function() {\n
+        \           var $element = jQuery.colorbox.element();\n            jQuery('.more-info
+        article').find('img').remove();\n\n            if ( !jQuery($element.context).hasClass('future')
+        ) {\n              var bookNumber = jQuery($element.context).attr('data-book');\n\n
+        \             var $currentElement;\n              if ( bookNumber == 'first'
+        ) {\n                $currentElement = jQuery($('.deal')[0]);\n              }
+        else if ( bookNumber == 'second' ) {\n                $currentElement = jQuery($('.deal')[1]);\n
+        \             }\n\n              var $image = $currentElement.find('article
+        .product img').clone();\n              $image.insertAfter('.more-info article
+        .product-image .offer');\n            }\n          });\n\n          jQuery('.button-buy').click(function(e)
+        {\n            if( jQuery(this).attr('data-code') !== undefined ) {\n              e.preventDefault();\n
+        \             var code = jQuery(this).attr('data-code');\n              var
+        site = jQuery(this).attr('data-site');\n              jQuery('#code-to-redeem').text(code);\n
+        \             jQuery('.site').text(site);\n              jQuery('#redeem-link').attr('href',
+        jQuery(this).attr('href'));\n              jQuery(this).colorbox({inline:
+        true, width: \"900px\", initialWidth: \"0\", initialHeight: \"0\", transition:
+        \"fade\", href: \"#redeem-code\", open: true});\n            }\n          });\n\n
+        \         jQuery('.more-details').each(function() {\n            jQuery(this).colorbox({inline:
+        true, width: \"955px\", transition: \"fade\"});\n          });\n\n          showRemaining();\n\n
+        \         var heights = new Array();\n          jQuery('.current-deals .deal').each(function(i)
+        {\n            heights[i] = jQuery(this).find('header').height();\n          });\n\n
+        \         heights.sort(function(a,b) { return b-a});\n          jQuery('.current-deals
+        .deal').find('header').height(heights[0]);\n        });\n        jQuery('.fullscreen').animate(
+        {\n          top: '0',\n          height: '620px'\n        }, 1500);\n      }\n\n
+        \     jQuery('.xmas-slidedown h1').click( function(el, event) {\n        //
+        slideDown(jQuery(this), event);\n        location.href=\"http://digital-photography-school.com/xmas\";\n
+        \     });\n\n      jQuery('.xmas-slidedown h1 a').click(function(event){\n
+        \       event.preventDefault();\n      });\n    </script>\n    <div class=\"header-container\"
+        style=\"margin-top: 45px\">\n    <header class=\"wrapper clearfix\">\n      <img
+        class=\"logo_glare\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo-glare.png\">\n
+        \     <a href=\"http://digital-photography-school.com/\" class=\"dps-logo\"
+        title=\"Digital Photography School\"><img class=\"dps-logo-image\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo2.png\"><img
+        class=\"dps-logo-image-mobile\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo.png\"></a>\n
+        \           <button type=\"button\" class=\"btn btn-navbar\"></button> <!--
+        Mobile Navigation Button -->\n      <div class=\"header-menus\">        <nav
+        class=\"blue-background clearfix\">\n          <ul>\n            <li><a href=\"http://digital-photography-school.com/\"
+        class=\" blue\">Home</a></li>\n            <li class=\"tips-hover\"><a href=\"http://digital-photography-school.com/tips\"
+        class=\"active blue\">Tips &amp; Tutorials</a><div class=\"arrow-up tips\"></div></li>\n
+        \           <li class=\"camera-hover\"><a href=\"http://digital-photography-school.com/cameras\"
+        >Cameras &amp; Equipment</a><div class=\"arrow-up cameras\"></div></li>\n
+        \           <li class=\"postprod-hover\"><a href=\"http://digital-photography-school.com/post-production\"
+        >Post Production</a><div class=\"arrow-up post\"></div></li>\n            <li><a
+        href=\"http://digital-photography-school.com/learn\" >Bookstore</a></li>\n
+        \           <li><a href=\"http://digital-photography-school.com/forum\">Forum</a></li>\n
+        \           <li class=\"search-li\">\n              <div class=\"search-bar
+        desktop\">\n                <form role=\"search\" method=\"get\" id=\"searchform\"
+        \ action=\"http://digital-photography-school.com/\">\n                  <input
+        type=\"text\" name=\"s\" placeholder=\"Search\">\n                  <button
+        type=\"submit\" class=\"search-button\"></button>\n                </form>\n
+        \             </div>\n              <div class=\"bar-ad\">\n\t\t<div id='acm-ad-tag-_dPSv4_tips-top-button_(88x31)'
+        style='width:88px; height:31px;'>\n<script type='text/javascript'>\ngoogletag.cmd.push(function()
+        { googletag.display('acm-ad-tag-_dPSv4_tips-top-button_(88x31)'); });\n</script>\n\t\t</div>\n\t\t</div>\n
+        \           </li>\n          </ul>\n        </nav>\n                <nav class=\"blue-background
+        mobile-menu\">\n          <ul>\n            <li><a href=\"http://digital-photography-school.com/\"
+        class=\" blue\">Home</a></li>\n            <li><a href=\"http://digital-photography-school.com/tips\"
+        class=\"active blue\">Tips &amp; Tutorials</a><div class=\"arrow-up tips\"></div></li>\n
+        \           <li><a href=\"http://digital-photography-school.com/cameras\"
+        >Cameras &amp; Equipment</a></li>\n            <li><a href=\"http://digital-photography-school.com/post-production\"
+        >Post Production</a></li>\n            <li><a href=\"http://digital-photography-school.com/learn\"
+        >Bookstore</a></li>\n            <li><a href=\"http://digital-photography-school.com/forum\">Forum</a></li>\n
+        \           <li class=\"search-li\">\n              <div class=\"search-bar\">\n
+        \               <form role=\"search\" method=\"get\" id=\"searchform\"  action=\"http://digital-photography-school.com/\">\n
+        \                 <input type=\"text\" name=\"s\" placeholder=\"Search\">\n
+        \                 <button type=\"submit\" class=\"search-button\"></button>\n
+        \               </form>\n              </div>\n            </li>\n          </ul>\n
+        \       </nav>\n\n          \n          <nav class=\"green-background clearfix
+        category-navigation active-category\">\n            <ul>\n              <li><a
+        href=\"http://digital-photography-school.com/tips\">Most Recent</a></li>\n
+        \             <li><a href=\"http://digital-photography-school.com/tips?most-popular&page_number=1\">Most
+        Popular</a></li>\n              <li id=\"menu-item-55945\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page current-menu-item page_item
+        page-item-986 current_page_item menu-item-55945\"><a href=\"http://digital-photography-school.com/digital-photography-tips-for-beginners\">Tips
+        for Beginners</a></li>\n<li id=\"menu-item-56497\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-56497\"><a href=\"http://digital-photography-school.com/portrait-photography-tips\">Portrait
+        Photography Tips</a></li>\n<li id=\"menu-item-55986\" class=\"menu-item menu-item-type-custom
+        menu-item-object-custom menu-item-55986\"><a href=\"http://digital-photography-school.com/landscape-photography-tips\">Landscape
+        Photography Tips</a></li>\n            </ul>\n          </nav>\n\n                              <div
+        class=\"green-background menu-iphone\">\n            <a href=\"http://digital-photography-school.com/tips\"><img
+        src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/blog/tips-icon.png\"></a>\n
+        \           <a href=\"http://digital-photography-school.com/cameras\"><img
+        src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/blog/camera-icon.png\"></a>\n
+        \           <a href=\"http://digital-photography-school.com/post-production\"><img
+        src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/blog/equipment-icon.png\"></a>\n
+        \           <header>Menu <img src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/mobile/arrow-down.png\"></header>\n
+        \         </div>\n          <nav class=\"green-background clearfix mobile-menu\">\n
+        \           <ul>\n              <li><a href=\"http://digital-photography-school.com/tips\">Most
+        Recent</a></li>\n              <li><a href=\"http://digital-photography-school.com/tips?most-popular&page_number=1\">Most
+        Popular</a></li>\n              <li class=\"menu-item menu-item-type-post_type
+        menu-item-object-page current-menu-item page_item page-item-986 current_page_item
+        menu-item-55945\"><a href=\"http://digital-photography-school.com/digital-photography-tips-for-beginners\">Tips
+        for Beginners</a></li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-56497\"><a href=\"http://digital-photography-school.com/portrait-photography-tips\">Portrait
+        Photography Tips</a></li>\n<li class=\"menu-item menu-item-type-custom menu-item-object-custom
+        menu-item-55986\"><a href=\"http://digital-photography-school.com/landscape-photography-tips\">Landscape
+        Photography Tips</a></li>\n            </ul>\n          </nav>\n        \n
+        \         <nav class=\"green-background aqua-background clearfix category-navigation
+        \">\n            <ul>\n              <li><a href=\"http://digital-photography-school.com/cameras\">Most
+        Recent</a></li>\n              <li><a href=\"http://digital-photography-school.com/cameras?most-popular&page_number=1\">Most
+        Popular</a></li>\n              <li id=\"menu-item-55948\" class=\"menu-item
+        menu-item-type-custom menu-item-object-custom menu-item-55948\"><a href=\"/popular-digital-cameras-and-gear\">Popular
+        Cameras and Gear</a></li>\n<li id=\"menu-item-55949\" class=\"menu-item menu-item-type-custom
+        menu-item-object-custom menu-item-55949\"><a href=\"/the-most-popular-and-favorite-dslr-lenses-according-to-our-readers\">Popular
+        Lenses</a></li>\n            </ul>\n          </nav>\n\n          \n          <nav
+        class=\"green-background post-production-background clearfix category-navigation
+        \">\n            <ul>\n              <li><a href=\"http://digital-photography-school.com/post-production\">Most
+        Recent</a></li>\n              <li><a href=\"http://digital-photography-school.com/post-production?most-popular&page_number=1\">Most
+        Popular</a></li>\n              <li id=\"menu-item-55950\" class=\"menu-item
+        menu-item-type-custom menu-item-object-custom menu-item-55950\"><a href=\"/?s=lightroom\">Lightroom
+        Tips</a></li>\n<li id=\"menu-item-55951\" class=\"menu-item menu-item-type-custom
+        menu-item-object-custom menu-item-55951\"><a href=\"/?s=photoshop\">Photoshop
+        Tips</a></li>\n<li id=\"menu-item-55952\" class=\"menu-item menu-item-type-custom
+        menu-item-object-custom menu-item-55952\"><a href=\"/?s=gimp\">GIMP Tips</a></li>\n
+        \           </ul>\n          </nav>\n                  </div>\n            <nav
+        class=\"ad-background general\">\n        <span class=\"home-header-ad\" >\n\t\t<div
+        id='acm-ad-tag-_dPSv4_tips-top-banner_(728x90)' style='width:728px; height:90px;'>\n<script
+        type='text/javascript'>\ngoogletag.cmd.push(function() { googletag.display('acm-ad-tag-_dPSv4_tips-top-banner_(728x90)');
+        });\n</script>\n\t\t</div>\n\t\t</span>\n      </nav>\n          </header>\n
+        \ </div>\n\n      <div class=\"category\" style=\"display: none;\">tips</div>\n
+        \   <div class=\"main-container\">\n    <div class=\"wrapper clearfix blog\"
+        id=\"content\">\n      <div class=\"blog_content page\">\n        <h1 style=\"font-size:
+        30px; margin-bottom: 9px;\">Digital Photography Tips for Beginners</h1>\n
+        \               <div class=\"social-media\" id=\"social-media-nofloat\">\n
+        \         <div class=\"share-buttons-wrapper\">\n            <span class='share-buttons
+        st_sharethis_vcount' displayText='SHARES'></span>\n            <span class='share-buttons
+        st_facebook_vcount' displayText='Facebook'></span>\n            <span class='share-buttons
+        st_twitter_vcount' displayText='Tweet' st_username=\"digitalps\" st_via=\"digitalps\"></span>\n
+        \           <span class='share-buttons st_googleplus_vcount' displayText=''></span>\n
+        \           <span class='share-buttons st_pinterest_vcount' displayText='Pin
+        It' st_summary=''></span>\n            <span st_url='' st_title='' class='share-buttons
+        st_stumbleupon_vcount' displayText='StumbleUpon'></span>\n            <span
+        class=\"share-buttons other-counter\"><span style=\"text-decoration:none;color:#000000;display:inline-block;cursor:default;\"
+        class=\"stButton\"><div><div class=\"stBubble\" style=\"display: block;\"><div
+        class=\"stBubble_count\">0</div></div><span class=\"stButton_gradient\"></span></div></span></span>\n
+        \         </div>\n        </div>\n                <p><a href=\"http://www.flickr.com/photos/thelotuscarroll/8943741440/sizes/l/\"><img
+        src=\"http://digital-photography-school.com/wp-content/uploads/2007/11/beginners.jpg\"
+        alt=\"beginners\" width=\"600\" height=\"400\" class=\"aligncenter size-full
+        wp-image-61868\" /></a></p>\n<p>A large proportion of the readers of Digital
+        Photography School classify themselves as beginners &#8211; so we thought
+        it might be helpful to have a page set up that collates some of our <strong>Digital
+        Photography Tips for Beginners</strong>.</p>\n<p>Before you check out the
+        links below &#8211; do check out our <a href=\"http://digital-photography-school.com/learn\">range
+        of eBooks and workbooks</a> &#8211; most of which were written with the Beginner
+        Photographer in mind.</p>\n<p>Below is just a selection of some of our digital
+        photography tips and tutorials aimed more at the beginner photographer. We&#8217;re
+        always writing more beginner tips &#8211; so <a href=\"/subscribe-to-digital-photography-school/\">subscribe
+        to DPS </a>today to get all of our updates.</p>\n<h3>The Basics of Exposure</h3>\n<p><a
+        href=\"/subscribe-to-digital-photography-school/\"><img src=\"http://digital-photography-school.com/wp-content/uploads/2007/12/images200712041519.jpg\"
+        height=\"169\" width=\"257\" border=\"0\" align=right alt=\"subscribe-digital-photography-school\"
+        class=\"noborder\" /></a>\n<ul>\n<li><a href=\"/learning-exposure-in-digital-photography/\">Learning
+        about Exposure &#8211; The Exposure Triangle</a></li>\n<li><a href=\"/iso-settings/\">Introduction
+        to ISO in Digital Photography</a></li>\n<li><a href=\"/shutter-speed/\">Introduction
+        to Shutter Speed in Digital Photography</a></li>\n<li><a href=\"/aperture/\">Introduction
+        to Aperture in Digital Photography</a></li>\n<li><a href=\"/understanding-exposure-by-brian-peterson-a-reader-review/\">Understanding
+        Exposure &#8211; Book Review</a></li>\n</ul>\n</p>\n<p><h3>Learning to Use
+        Digital Camera Settings and Features</h3>\n</p>\n<p>\n<ul>\n<li><a href=\"/how-to-control-aperture-and-shutter-speed-on-an-entry-level-point-and-shoot-digital-camera/\">How
+        to Control Aperture and Shutter Speed on an Entry Level Point and Shoot Digital
+        Camera</a></li>\n<li><a href=\"/aperture-and-shutter-priority-modes/\">Aperture
+        and Shutter Priority Modes</a></li>\n<li><a href=\"/introduction-to-white-balance/\">Introduction
+        to White Balance</a></li>\n<li><a href=\"/digital-camera-modes/\">Introduction
+        to Digital Camera Modes</a></li>\n<li><a href=\"/understanding-histograms/\">Understanding
+        Histograms</a></li>\n<li><a href=\"/pre-focus-to-combat-shutter-lag/\">Prefocus
+        to Combat Shutter Lag</a></li>\n<li><a href=\"/using-exif-data/\">Introduction
+        to EXIF Data</a></li>\n<li><a href=\"/automatic-exposure-bracketing-aeb/\">Automatic
+        Exposure Bracketing (AEB)</a></li>\n</ul>\n<h3>Handling and Caring for a Digital
+        Camera</h3>\n</p>\n<p>\n<ul>\n<li><a href=\"/how-to-hold-a-digital-camera/\">How
+        to Hold a Digital Camera</a></li>\n<li><a href=\"/shutter-release/\">Shutter
+        Release Technique</a></li>\n<li><a href=\"/how-to-avoid-a-dirty-dslr-image-sensor/\">How
+        to Avoid a Dirty DSLR Image Sensor</a></li>\n<li><a href=\"/how-should-i-clean-my-dslrs-lens/\">How
+        to Clean a DSLR Lens</a></li>\n<li><a href=\"/digital-camera-predators-and-how-to-keep-them-at-bay/\">7
+        Digital Camera Predators and How to Keep them at Bay</a></li>\n</ul>\n<h3>Other
+        Beginner Photography Tutorials and Tips</h3>\n<p><img src=\"http://digital-photography-school.com/wp-content/uploads/2007/11/imagespractical-photography-tips-2.jpg\"
+        height=\"219\" width=\"249\" border=\"0\" hspace=\"10\" vspace=\"10\" align=right
+        alt=\"Digital Photography Tips for Beginners\" class=\"noborder\" />\n<ul>\n<li><a
+        href=\"/100-things-ive-learned-about-photography/\">100 Things I&#8217;ve
+        Learned About Photography</a></li>\n<li><a href=\"/10-questions/\">10 Questions
+        to Ask When Taking a Digital Photo</a></li>\n<li><a href=\"/11-tips-for-beginner-photographers/\">11
+        Tips for Beginner Photographers</a></li>\n<li><a href=\"/using-fill-flash/\">Using
+        Fill Flash</a></li>\n<li><a href=\"/how-to-get-better-digital-photos-in-low-light-conditions-without-using-a-flash/\">How
+        to Get Better Photos in Low Light Without Using a Flash</a></li>\n<li><a href=\"/how-to-take-sharp-digital-images/\">How
+        to Take Sharp Digital Images</a></li>\n<li><a href=\"/how-to-use-focal-lock/\">How
+        to Use  Focal Lock</a></li>\n<li><a href=\"/shooting-with-an-in-camera-flash/\">Shooting
+        with an In Camera Flash</a></li>\n<li><a href=\"/13-lessons-to-teach-your-child-about-digital-photography/\">13
+        Lessons to Teach Your Child about Photography</a></li>\n</ul>\n<p><h3>Common
+        Digital Photography Problems and Questions Answered</h3>\n</p>\n<p>\n<ul>\n<li><a
+        href=\"/7-strategies-for-avoiding-flash-blow-out/\">7 Strategies for Avoiding
+        Flash Blow Out</a></li>\n<li><a href=\"/macro-photography-tips-for-compact-digital-camera-users/\">Macro
+        Photography Tips for Point and Shoot Compact Digital Cameras</a></li>\n<li><a
+        href=\"/how-to-get-shallow-depth-of-field-in-your-digital-photos/\">How to
+        Get Shallow Depth of Field in Your Digital Photos</a></li>\n<li><a href=\"/crop-factor-explained/\">Crop
+        Factor Explained</a></li>\n<li><a href=\"/complete-digital-photography-by-ben-long-book-review/\">Complete
+        Digital Photography &#8211; Book Review</a></li>\n<li><a href=\"/the-digital-photography-book-by-scott-kelby-review/\">The
+        Digital Photography Book &#8211; Book Review</a></li>\n</ul>\n<p>These Beginner
+        Tips just scratch the Surface of our archives. <a href=\"/subscribe-to-digital-photography-school/\">Subscribe
+        to Digital Photography School for more great tips today</a>.</p>\n<p><a href=\"http://digital-photography-school.com/portraits\"><img
+        src=\"http://www.problogger.net/wp-content/uploads/2009/11/portrait-photograph-tips.jpg\"
+        width=\"600\" height=\"250\" alt=\"portrait-photograph-tips.jpg\" /></a></p>\n<p><!--
+        Include ONCE for ALL buttons in the page --><br />\n<script type=\"text/javascript\">\n(function()
+        {\n    window.PinIt = window.PinIt || { loaded:false };\n    if (window.PinIt.loaded)
+        return;\n    window.PinIt.loaded = true;\n    function async_load(){\n        var
+        s = document.createElement(\"script\");\n        s.type = \"text/javascript\";\n
+        \       s.async = true;\n        s.src = \"http://assets.pinterest.com/js/pinit.js\";\n
+        \       var x = document.getElementsByTagName(\"script\")[0];\n        x.parentNode.insertBefore(s,
+        x);\n    }\n    if (window.attachEvent)\n        window.attachEvent(\"onload\",
+        async_load);\n    else\n        window.addEventListener(\"load\", async_load,
+        false);\n})();\n</script></p>\n<p><!-- Customize and include for EACH button
+        in the page --></p>\n\n        <div class=\"clearfix\"></div>\n\n      </div>
+        <!-- Blog content -->\n\n    </div> <!-- #main -->\n  </div> <!-- #main-container
+        -->\n\n<script>\n  (function($) {\n    $(window).load(function() {\n      $('.stBubble_count').each(function()
+        {\n        if($(this).text() == 'New') {\n          $(this).text('0');\n        }\n
+        \     });\n      jQuery('.share-buttons-wrapper').css('visibility', 'visible');\n
+        \   });\n    $(document).ready(function() {\n      if($('.legacy-comments
+        ul li').length == 0) $('.legacy-comments').remove();\n    });\n  })(jQuery);\n</script>\n<script>\n
+        \ jQuery(function() {\n    var socialBox = jQuery('#socialbox');\n    var
+        socialStickyTop = socialBox.offset().top;\n    var socialStickyHeight = socialBox.height();\n\n
+        \   if(jQuery(window).width() < 1000) {\n      socialBox.remove();\n    }\n\n
+        \   jQuery(window).scroll(function() {\n      var socialLimit = jQuery('.footer-container').offset().top
+        - socialStickyHeight - 20;\n      var windowTop = jQuery(window).scrollTop();\n\n
+        \     if (socialLimit < (windowTop + 85)) {\n        var diff = socialLimit
+        - windowTop - 50;\n        socialBox.css('top', diff);\n      } else {\n        socialBox.css('top',
+        40);\n      }\n\n    })\n  });\n</script>\n    <script type=\"text/javascript\">\n
+        \   // <![CDATA[\n        var disqus_shortname = 'digitalphotographyschool';\n
+        \       (function () {\n            var nodes = document.getElementsByTagName('span');\n
+        \           for (var i = 0, url; i < nodes.length; i++) {\n                if
+        (nodes[i].className.indexOf('dsq-postid') != -1) {\n                    nodes[i].parentNode.setAttribute('data-disqus-identifier',
+        nodes[i].getAttribute('rel'));\n                    url = nodes[i].parentNode.href.split('#',
+        1);\n                    if (url.length == 1) url = url[0];\n                    else
+        url = url[1]\n                    nodes[i].parentNode.href = url + '#disqus_thread';\n
+        \               }\n            }\n            var s = document.createElement('script');
+        s.async = true;\n            s.type = 'text/javascript';\n            s.src
+        = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';\n            (document.getElementsByTagName('HEAD')[0]
+        || document.getElementsByTagName('BODY')[0]).appendChild(s);\n        }());\n
+        \   //]]>\n    </script>\n<script type=\"text/javascript\">slidedown.start({\"content\":\"#content\",\"sidebar\":\"#sidebar\",\"wait\":\"3000\",\"debounce\":\"500\",\"animate\":\"500\",\"offsetTop\":\"0\",\"offsetBottom\":\"0\",\"debug\":0,\"outline\":0,\"findids\":0,\"dynamicTop\":\"\",\"jsInHead\":\"\",\"minHDiff\":\"0\",\"override\":\"on\",\"container\":\".main-container\",\"sidebar_elem\":\"#sidebar\",\"floating_elem\":\"#socialbox\"});</script><link
+        rel='stylesheet' id='bsf_style-css'  href='http://digital-photography-school.com/wp-content/plugins/all-in-one-schemaorg-rich-snippets/css/style.css?v=1.1&#038;ver=3.7.1'
+        type='text/css' media='all' />\n<script type='text/javascript'>\n/* <![CDATA[
+        */\nvar pollsL10n = {\"ajax_url\":\"http:\\/\\/digital-photography-school.com\\/wp-admin\\/admin-ajax.php\",\"text_wait\":\"Your
+        last request is still being processed. Please wait a while ...\",\"text_valid\":\"Please
+        choose a valid poll answer.\",\"text_multiple\":\"Maximum number of choices
+        allowed: \",\"show_loading\":\"0\",\"show_fading\":\"1\"};\n/* ]]> */\n</script>\n<script
+        type='text/javascript' src='http://digital-photography-school.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>\n<div
+        class=\"footer-container\">\n    <header class=\"wrapper\">\n    <div class=\"footer-content\">\n
+        \     <nav>\n        <div>\n          <h1>About DPS</h1>\n          <div class=\"menu-about-dps-container\"><ul
+        id=\"menu-about-dps\" class=\"menu\"><li id=\"menu-item-55919\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-55919\"><a href=\"http://digital-photography-school.com/about-digital-photography-school\">About
+        dPS</a></li>\n<li id=\"menu-item-55920\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55920\"><a href=\"http://digital-photography-school.com/write-for-digital-photography-school\">Write
+        for dPS</a></li>\n<li id=\"menu-item-55923\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55923\"><a href=\"http://digital-photography-school.com/advertise-on-digital-photography-school\">Advertise
+        on dPS</a></li>\n<li id=\"menu-item-55924\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55924\"><a href=\"http://digital-photography-school.com/affiliates\">Affiliate
+        Program</a></li>\n</ul></div>        </div>\n        <div>\n          <h1>Latest
+        Posts</h1>\n          <ul>\n            <li><a href=\"http://digital-photography-school.com/best-portrait-turorial-best-of-2013\"
+        title=\"Portrait Tutorial Feast &#8211; Best of dPS 2013\">Portrait Tutorial
+        Feast &#8211; Best of dPS 2013</a></li><li><a href=\"http://digital-photography-school.com/best-gear-posts\"
+        title=\"All about Gear [Best of dPS 2013]\">All about Gear [Best of dPS 2013]</a></li><li><a
+        href=\"http://digital-photography-school.com/best-landscapes-top-12-from-2013\"
+        title=\"So you Want to Shoot Landscapes? [Top 12 dPS Landscape articles from
+        2013]\">So you Want to Shoot Landscapes? [Top 12 dPS Landscape articles from
+        2013]</a></li>          </ul>\n        </div>\n        <div>\n          <h1>Useful
+        Links</h1>\n          <div class=\"menu-useful-links-container\"><ul id=\"menu-useful-links\"
+        class=\"menu\"><li id=\"menu-item-55925\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55925\"><a href=\"http://digital-photography-school.com/learn\">Bookstore</a></li>\n<li
+        id=\"menu-item-55927\" class=\"menu-item menu-item-type-custom menu-item-object-custom
+        menu-item-55927\"><a href=\"/forum\">Forums</a></li>\n<li id=\"menu-item-55928\"
+        class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-55928\"><a
+        href=\"http://digital-photography-school.com/contact-digital-photography-school\">Contact
+        &#038; Support</a></li>\n<li id=\"menu-item-55929\" class=\"menu-item menu-item-type-custom
+        menu-item-object-custom menu-item-55929\"><a href=\"/tips\">Tips &#038; Tutorials</a></li>\n</ul></div>
+        \       </div>\n      </nav>\n      <aside>\n        <div class=\"footer-winner-imgs\">\n
+        \         <h1>Need Some Inspiration?</h1>\n                      <a href=\"http://digital-photography-school.com/creating-more-compelling-bird-portraits\"
+        title=\"A Turn of the Head &#8211; Creating More Compelling Bird Portraits\"><img
+        width=\"110\" height=\"75\" src=\"http://digital-photography-school.com/wp-content/uploads/2013/12/PFB_20090626_2729-110x75.jpg\"
+        class=\"attachment-footer-thumbnail wp-post-image\" alt=\"Common Loon carrying
+        a chick on its back with both birds looking towards the viewer\" /></a>\n
+        \                     <a href=\"http://digital-photography-school.com/24-beautiful-dawn-images\"
+        title=\"23 Beautiful Dawn Images\"><img width=\"110\" height=\"75\" src=\"http://digital-photography-school.com/wp-content/uploads/2012/02/dawn-images-110x75.png\"
+        class=\"attachment-footer-thumbnail wp-post-image\" alt=\"dawn-images\" /></a>\n
+        \                     <a href=\"http://digital-photography-school.com/12-super-silhouette-shots\"
+        title=\"12 Stunning Silhouette Shots\"><img width=\"99\" height=\"75\" src=\"http://digital-photography-school.com/wp-content/uploads/2008/07/silhouette-5.jpg\"
+        class=\"attachment-footer-thumbnail wp-post-image\" alt=\"silhouette-5.jpg\"
+        /></a>\n                      <a href=\"http://digital-photography-school.com/15-spectacular-lightning-images\"
+        title=\"15 Electrifying Lightning Images\"><img width=\"100\" height=\"75\"
+        src=\"http://digital-photography-school.com/wp-content/uploads/2007/11/imageslightning-b-1.jpg\"
+        class=\"attachment-footer-thumbnail\" alt=\"imageslightning-b-1.jpg\" /></a>\n
+        \                     <a href=\"http://digital-photography-school.com/25-spectacular-light-painting-images\"
+        title=\"25 Spectacular Light Painting Images\"><img width=\"110\" height=\"73\"
+        src=\"http://digital-photography-school.com/wp-content/uploads/2009/11/light-painting-19.jpg\"
+        class=\"attachment-footer-thumbnail wp-post-image\" alt=\"Image by rafoto\"
+        /></a>\n                      <a href=\"http://digital-photography-school.com/17-stunning-wide-angle-images\"
+        title=\"17 Amazing Wide Angle Images\"><img width=\"110\" height=\"73\" src=\"http://digital-photography-school.com/wp-content/uploads/2008/01/wide-angle-lens-1-1.jpg\"
+        class=\"attachment-footer-thumbnail wp-post-image\" alt=\"wide-angle-lens-1-1.jpg\"
+        /></a>\n                  </div>\n        <div class=\"footer-winner-links\">\n
+        \         <h1>Useful Links</h1>\n          <div class=\"menu-useful-links-container\"><ul
+        id=\"menu-useful-links-1\" class=\"menu\"><li class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55925\"><a href=\"http://digital-photography-school.com/learn\">Bookstore</a></li>\n<li
+        class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-55927\"><a
+        href=\"/forum\">Forums</a></li>\n<li class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-55928\"><a href=\"http://digital-photography-school.com/contact-digital-photography-school\">Contact
+        &#038; Support</a></li>\n<li class=\"menu-item menu-item-type-custom menu-item-object-custom
+        menu-item-55929\"><a href=\"/tips\">Tips &#038; Tutorials</a></li>\n</ul></div>
+        \       </div>\n      </aside>\n    </div>\n  </header>\n  <footer>\n    <p>&copy;
+        2006 - 2013 Digital Photography School, All Rights Reserved<span class=\"disclaimer\">
+        / <a href=\"http://digital-photography-school.com/disclaimer\" class=\"white\">Disclaimer</a></span></p>\n
+        \ </footer>\n</div>\n<div class=\"mobile-ad\">\n  <div class=\"mobile-ad-content\">\n\t\t<div
+        id='acm-ad-tag-_dPSv4_mob-oth-lores_(300x50)' style='width:300px; height:50px;'>\n<script
+        type='text/javascript'>\ngoogletag.cmd.push(function() { googletag.display('acm-ad-tag-_dPSv4_mob-oth-lores_(300x50)');
+        });\n</script>\n\t\t</div>\n\t\t</div>\n</div>\n  <!-- Newsletter Pop up 1
+        -->\n<div id=\"pop1\" class=\"newsletter-pop1 mfp-hide\">\n  <div class=\"logo-wrapper\">\n
+        \     <img class=\"dps-logo-image-mobile\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo.png\"
+        alt=\"\">\n    </div>\n    <header>\n      <span class=\"newsletter-icon\"></span><span
+        class=\"signup\">Sign up to the weekly</span>\n      <span class=\"dps-newsletter\"><span
+        class=\"highlight\">DPS </span>NEWSLETTER</span>\n    </header>\n    <div
+        class=\"newsletter-form\">\n      <form method=\"post\" action=\"http://www.aweber.com/scripts/addlead.pl\">\n
+        \       <input type=\"hidden\" name=\"meta_web_form_id\" value=\"274600561\">\n
+        \       <input type=\"hidden\" name=\"meta_split_id\" value=\"\">\n        <input
+        type=\"hidden\" name=\"unit\" value=\"dpsnews\">\n        <input type=\"hidden\"
+        name=\"redirect\" value=\"http://digital-photography-school.com/blog/thank-you-for-subscribing-to-digital-photography-school/\"
+        id=\"redirect_603d8057d5f4e22a593a51b180fa1375\">\n        <input type=\"hidden\"
+        name=\"meta_redirect_onlist\" value=\"\">\n        <input type=\"hidden\"
+        name=\"meta_adtracking\" value=\"\">\n        <input type=\"hidden\" name=\"meta_message\"
+        value=\"1\">\n        <input type=\"hidden\" name=\"meta_required\" value=\"from\">\n
+        \       <input type=\"hidden\" name=\"meta_forward_vars\" value=\"0\">\n        <input
+        type=\"text\" name=\"from\" value=\"\" placeholder=\"Enter your email here\">\n
+        \       <button type=\"submit\" name=\"submit\" class=\"submit-button\">Subscribe</button>\n
+        \     </form>\n    </div>\n    <footer>\n      <div class=\"description\">\n
+        \       <ul>\n          <li>All our best articles for the week</li>\n          <li>Fun
+        photographic challenges</li>\n          <li>Special offers and discounts</li>\n
+        \       </ul>\n      </div> <!-- Description end -->\n      <div class=\"learn-to-use\">\n
+        \       <img class=\"camera-photo\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/camera.jpg\"
+        alt=\"\"><p>Learn to Use It!</p>\n      </div> <!-- learn-to-use end -->\n
+        \     <div class=\"rss-feed\">\n        <p><img src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/lock.png\">
+        Your email is safe with us. We won't share it with anyone.</p>\n      </div>
+        <!-- rss-feed end -->\n    </footer>\n</div> <!-- newsletter-pop1 end -->\n\n<!--
+        Newsletter Pop up 2 -->\n\n<div id=\"pop2\" class=\"newsletter-pop1 mfp-hide\">\n
+        \ <div class=\"logo-wrapper\">\n    <img class=\"dps-logo-image-mobile\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo.png\"
+        alt=\"\">\n  </div>\n  <header>\n    <span class=\"newsletter-icon\"></span><span
+        class=\"signup\">Sign up to the weekly</span>\n    <span class=\"dps-newsletter\"><span
+        class=\"highlight\">DPS </span>NEWSLETTER</span>\n  </header>\n  <div class=\"newsletter-form\">\n
+        \   <form method=\"post\" action=\"http://www.aweber.com/scripts/addlead.pl\">\n
+        \     <input type=\"hidden\" name=\"meta_web_form_id\" value=\"274600561\">\n
+        \     <input type=\"hidden\" name=\"meta_split_id\" value=\"\">\n      <input
+        type=\"hidden\" name=\"unit\" value=\"dpsnews\">\n      <input type=\"hidden\"
+        name=\"redirect\" value=\"http://digital-photography-school.com/blog/thank-you-for-subscribing-to-digital-photography-school/\"
+        id=\"redirect_603d8057d5f4e22a593a51b180fa1375\">\n      <input type=\"hidden\"
+        name=\"meta_redirect_onlist\" value=\"\">\n      <input type=\"hidden\" name=\"meta_adtracking\"
+        value=\"\">\n      <input type=\"hidden\" name=\"meta_message\" value=\"1\">\n
+        \     <input type=\"hidden\" name=\"meta_required\" value=\"from\">\n      <input
+        type=\"hidden\" name=\"meta_forward_vars\" value=\"0\">\n      <input type=\"text\"
+        name=\"from\" value=\"\" placeholder=\"Enter your email here\">\n      <button
+        type=\"submit\" name=\"submit\" class=\"submit-button\">Subscribe</button>\n
+        \   </form>\n  </div>\n  <footer>\n    <div class=\"description\">\n      <ul>\n
+        \       <li>All our best articles for the week</li>\n        <li>Fun photographic
+        challenges</li>\n        <li>Special offers and discounts</li>\n      </ul>\n
+        \   </div> <!-- Description end -->\n    <div class=\"learn-to-use\">\n      <img
+        class=\"camera-photo\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/camera.jpg\"
+        alt=\"\"><p>Learn to Use It!</p>\n    </div> <!-- learn-to-use end -->\n    <div
+        class=\"rss-feed\">\n      <p><img src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/lock.png\">
+        Your email is safe with us. We won't share it with anyone.</p>\n    </div>
+        <!-- rss-feed end -->\n  </footer>\n</div> <!-- newsletter-pop2 end -->\n\n<!--
+        Newsletter Pop up 3 -->\n\n<div id=\"pop3\" class=\"newsletter-pop1 mfp-hide\">\n
+        \ <div class=\"logo-wrapper\">\n    <img class=\"dps-logo-image-mobile\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo.png\"
+        alt=\"\">\n  </div>\n  <header>\n    <span class=\"signup\">Sign up to the
+        weekly</span>\n    <span class=\"dps-newsletter\"><span class=\"highlight\">DPS
+        </span>NEWSLETTER</span>\n  </header>\n  <div class=\"newsletter-form\">\n
+        \   <form method=\"post\" action=\"http://www.aweber.com/scripts/addlead.pl\">\n
+        \     <input type=\"hidden\" name=\"meta_web_form_id\" value=\"274600561\">\n
+        \     <input type=\"hidden\" name=\"meta_split_id\" value=\"\">\n      <input
+        type=\"hidden\" name=\"unit\" value=\"dpsnews\">\n      <input type=\"hidden\"
+        name=\"redirect\" value=\"http://digital-photography-school.com/blog/thank-you-for-subscribing-to-digital-photography-school/\"
+        id=\"redirect_603d8057d5f4e22a593a51b180fa1375\">\n      <input type=\"hidden\"
+        name=\"meta_redirect_onlist\" value=\"\">\n      <input type=\"hidden\" name=\"meta_adtracking\"
+        value=\"\">\n      <input type=\"hidden\" name=\"meta_message\" value=\"1\">\n
+        \     <input type=\"hidden\" name=\"meta_required\" value=\"from\">\n      <input
+        type=\"hidden\" name=\"meta_forward_vars\" value=\"0\">\n      <input type=\"text\"
+        name=\"from\" value=\"\" placeholder=\"Enter your email here\">\n      <button
+        type=\"submit\" name=\"submit\" class=\"submit-button\">Subscribe</button>\n
+        \   </form>\n  </div>\n  <footer>\n    <div class=\"description\">\n      <ul>\n
+        \       <li>All our best articles for the week</li>\n        <li>Fun photographic
+        challenges</li>\n        <li>Special offers and discounts</li>\n      </ul>\n
+        \   </div> <!-- Description end -->\n    <div class=\"learn-to-use\">\n      <img
+        class=\"camera-photo\" src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/camera.jpg\"
+        alt=\"\"><p>Learn to Use It!</p>\n    </div> <!-- learn-to-use end -->\n    <div
+        class=\"rss-feed\">\n      <img src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/lock.png\">\n
+        \     <p>Your email is safe with us. We won't share it with anyone.</p>\n
+        \   </div> <!-- rss-feed end -->\n  </footer>\n</div> <!-- newsletter-pop3
+        end -->\n\n<!-- Newsletter old begin -->\n\n<div id=\"pop1_b\" class=\"mfp-hide\"
+        style=\"width: 600px; margin: auto; border-radius: 5px; position: relative;\">\n
+        \ <center style=\"background: white; padding-bottom: 15px; border-radius:
+        5px;\">\n    <form method=\"post\" action=\"http://www.aweber.com/scripts/addlead.pl\">\n
+        \     <input type=\"hidden\" name=\"meta_web_form_id\" value=\"83785468\">\n
+        \     <input type=\"hidden\" name=\"meta_split_id\" value=\"\">\n      <input
+        type=\"hidden\" name=\"unit\" value=\"dpsnews\">\n      <input type=\"hidden\"
+        name=\"redirect\" value=\"http://digital-photography-school.com/blog/thank-you-for-subscribing-to-digital-photography-school/\"
+        id=\"redirect_3b5616e5ae90b4949d5c4f3a3e1cda35\">\n      <input type=\"hidden\"
+        name=\"meta_redirect_onlist\" value=\"\">\n      <input type=\"hidden\" name=\"meta_adtracking\"
+        value=\"\">\n      <input type=\"hidden\" name=\"meta_message\" value=\"1\">\n
+        \     <input type=\"hidden\" name=\"meta_required\" value=\"from\">\n      <input
+        type=\"hidden\" name=\"meta_forward_vars\" value=\"0\">\n      <table>\n        <tbody>\n
+        \         <tr>\n            <td colspan=\"2\">\n              <center>\n                <div>\n
+        \                 <div align=\"center\">\n                    <strong>\n                      <img
+        alt=\"\" style=\"margin: 15px 0 20px 0; width: 359px; height: 49px;\" title=\"\"
+        src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/img/logo2.png\">\n
+        \                     <br>\n                    </strong>\n                  </div>\n
+        \                 <div align=\"left\">\n                    <strong>\n                      <img
+        style=\"width: 159px; height: 168px;\" alt=\"\" title=\"\" src=\"http://digital-photography-school.com/blog/wp-content/uploads/2008/10/dps-newsletter.jpg\"
+        align=\"right\" border=\"1\">\n                    </strong>\n                    <strong>DPS
+        offers a free weekly newsletter with:&nbsp; </strong>\n                    <br>\n
+        \                   <blockquote style=\"border-left: 0;\"> 1. new photography
+        tutorials and tips\n                      <br>2. latest photography assignments\n
+        \                     <br>3. photo competitions and prizes\n                      <br>\n
+        \                   </blockquote>\n                    <br> Enter your email
+        below to subscribe.\n                    <br>\n                  </div>\n
+        \               </div>\n              </center>\n            </td>\n          </tr>\n
+        \         <tr>\n            <td>Email:</td>\n            <td>\n              <input
+        type=\"text\" name=\"from\" value=\"\" size=\"20\">\n            </td>\n          </tr>\n
+        \         <tr>\n            <td colspan=\"2\">\n              <center>\n                <div>\n
+        \                 <font size=\"1\">&nbsp;</font>\n                  <br>\n
+        \               </div>\n                <div>\n                  &nbsp;\n
+        \               </div>\n                <div style=\"text-align: left; padding-left:
+        40px;\">\n                  <a href=\"http://digital-photography-school.com/subscribe-to-digital-photography-school\"
+        title=\"\">\n                    <img alt=\"\" style=\"margin-top: -3px;\"
+        title=\"\" src=\"http://digital-photography-school.com/wp-content/uploads/2009/01/rss-logo-large.png\"
+        border=\"0\" height=\"35\" width=\"35\" align=\"left\">\n                  </a>\n
+        \                 <font size=\"2\">Get DAILY free tips, news and reviews via
+        our <a style=\"color: blue; text-decoration: underline;\" href=\"http://digital-photography-school.com/subscribe-to-digital-photography-school\"
+        title=\"\">RSS feed</a>.&nbsp;\n                  </font>\n                  <div>&nbsp;</div>\n
+        \               </div>\n              </center>\n            </td>\n          </tr>\n
+        \         <tr>\n            <td align=\"center\" colspan=\"2\">\n              <input
+        style=\"margin-bottom: 20px;\" type=\"submit\" name=\"submit\" value=\"Submit\">\n
+        \           </td>\n          </tr>\n        </tbody>\n      </table>\n    </form>\n
+        \   <img src=\"http://forms.aweber.com/form/ci/?tc=FFFFFF&amp;bg=339999&amp;d=rEwcbJxMPoLqpkamTj5sLJws\"
+        style=\"margin-top: 8px;\">\n  </center>\n</div>\n\n<!-- JS Scripts -->\n\n\n\n
+        \     <script type=\"text/javascript\">\n      (function(d){\n        var
+        f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');\n
+        \       p.type = 'text/javascript';\n        p.setAttribute('data-pin-hover',
+        true);\n        p.async = true;\n        p.src = '//assets.pinterest.com/js/pinit.js';\n
+        \       f.parentNode.insertBefore(p, f);\n      }(document));\n    </script>\n
+        \ \n  <script src=\"http://digital-photography-school.com/wp-content/themes/dps-redesign/js/popup.min.js\"></script>\n\n\n\n\n\n<!--
+        Google Analytics Script -->\n<script type=\"text/javascript\">\n  var gaJsHost=((\"https:\"==document.location.protocol)?\"https://ssl.\":\"http://www.\");\n
+        \ document.write(unescape(\"%3Cscript src='\"+gaJsHost+\n  \"google-analytics.com/ga.js'
+        type='text/javascript'%3E%3C/script%3E\"));\n</script>\n<script type=\"text/javascript\">\n
+        \ var ejGATracker = _gat._getTracker(\"UA-50674-3\");\n  ejGATracker._setDomainName(\"none\");\n
+        \ ejGATracker._setAllowLinker(true);\n  ejGATracker._trackPageview();\n</script>\n<!--
+        End of Google Analytics Script -->\n\n\n<script>\n  (function($) {\n      showArrowFor($('.category').html());\n
+        \   $(document).ready(function() {\n      $('.pinterest-button').css('visibility',
+        'visible');\n      var active_category = $('.active-category');\n      $('.tips-hover').mouseenter(function()
+        {\n        $('.active-category').removeClass('active-category');\n        $('.green-background:first').addClass('active-category');\n
+        \       showArrowFor('tips');\n      });\n      $('.camera-hover').mouseenter(function()
+        {\n        $('.active-category').removeClass('active-category');\n        $('.aqua-background').addClass('active-category');\n
+        \       showArrowFor('camera');\n      });\n      $('.postprod-hover').mouseenter(function()
+        {\n        $('.active-category').removeClass('active-category');\n        $('.post-production-background').addClass('active-category');\n
+        \       showArrowFor('postprod');\n      });\n      $('.header-menus').mouseleave(function()
+        {\n        hideArrows();\n        showArrowFor($('.category').html());\n        hideCategories();\n
+        \       active_category.addClass('active-category');\n      });\n    });\n\n
+        \   $(window).load(function() {\n      //$('.bar-ad div').css('display') !=
+        'none'\n      if ( $('.bar-ad iframe img').length > 1 ) {\n        $('.search-bar.desktop').animate({width:
+        '167px'}, 1000, function() { $('.bar-ad').fadeIn(); });\n        $('.search-bar.desktop
+        input').css('width', '127px');\n      };\n    });\n  })(jQuery);\n</script>\n\n<!--
+        Newsletter old end -->\n\n<script language=\"javascript\" type=\"text/javascript\">\n
+        \ <!--\n  function EJEJC_lc(th) { return false; }\n  // -->\n</script>\n<script
+        type=\"text/javascript\" src=\"https://www.e-junkie.com/ecom/box.js\"></script>\n\n</body>\n</html>\n\r\n<!--
+        Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/\r\n\r\nPage
+        Caching using memcached\r\nDatabase Caching 121/132 queries in 0.051 seconds
+        using memcached\r\nApplication Monitoring using New Relic\r\n\r\n Served from:
+        digital-photography-school.com @ 2013-12-29 18:54:43 by W3 Total Cache -->"
+    http_version: '1.1'
+  recorded_at: Sun, 29 Dec 2013 07:55:14 GMT
+recorded_with: VCR 2.8.0
