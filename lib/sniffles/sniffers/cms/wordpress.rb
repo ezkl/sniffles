@@ -35,7 +35,11 @@ module Sniffles
 
       def parse_version
         version_meta_tag = text_at("//meta[@name='generator']/@content")
-        @output[:version] = (version_meta_tag ? extract_version(version_meta_tag)[1] : version_meta_tag)
+        @output[:version] = version_meta_tag
+
+        if version = extract_version(version_meta_tag)
+          @output[:version] = version[1]
+        end
       end
 
       def parse_pingback
