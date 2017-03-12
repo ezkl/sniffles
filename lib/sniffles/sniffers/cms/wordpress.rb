@@ -37,7 +37,7 @@ module Sniffles
         version_meta_tag = text_at("//meta[@name='generator']/@content")
         @output[:version] = version_meta_tag
 
-        if version = extract_version(version_meta_tag)
+        if @output[:version] && version = extract_version(version_meta_tag)
           @output[:version] = version[1]
         end
       end
