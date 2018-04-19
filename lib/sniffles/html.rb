@@ -6,7 +6,7 @@ module Sniffles
 
     def text_at(pattern)
       if (nodes = @doc.search(pattern)).any?
-        nodes.text
+        nodes.map(&:value).uniq.first
       else
         false
       end
