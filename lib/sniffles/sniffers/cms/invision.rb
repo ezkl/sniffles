@@ -28,7 +28,7 @@ module Sniffles
       end
 
       def copyright_link
-        text_at("//p[@id='copyright']/a")
+        text_at("//p[@id='copyright']/a/@href")
       end
     end
   end
