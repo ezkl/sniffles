@@ -30,12 +30,16 @@ module Sniffles
 
       def parse_theme
         theme_uri = text_at("//link[@rel='stylesheet' and contains(@href,'wp-content/themes/')][1]/@href")
-        @output[:theme] = (theme_uri ? clean_theme_uri(theme_uri)[1] : false)
+        @output[:theme] = theme_uri && clean_theme_uri(theme_uri)&.to_a&.fetch(1, nil)
       end
 
       def parse_version
         version_meta_tag = text_at("//meta[@name='generator']/@content")
-        @output[:version] = (version_meta_tag ? extract_version(version_meta_tag)[1] : version_meta_tag)
+        @output[:version] = version_meta_tag
+
+        if @output[:version] && version = extract_version(version_meta_tag)
+          @output[:version] = version[1]
+        end
       end
 
       def parse_pingback
