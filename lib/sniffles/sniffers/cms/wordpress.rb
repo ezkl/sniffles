@@ -30,7 +30,7 @@ module Sniffles
 
       def parse_theme
         theme_uri = text_at("//link[@rel='stylesheet' and contains(@href,'wp-content/themes/')][1]/@href")
-        @output[:theme] = theme_uri && clean_theme_uri(theme_uri)&.fetch(1)
+        @output[:theme] = theme_uri && clean_theme_uri(theme_uri)&.to_a[1]
       end
 
       def parse_version
